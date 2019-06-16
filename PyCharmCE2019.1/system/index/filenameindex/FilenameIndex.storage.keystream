@@ -1,0 +1,332 @@
+html5XMLSchema.xsdxhtml-lat1.entxhtml-symbol.entxhtml-special.entmeta-ext.rncembed-ext.rnccommon-ext.rncits20-html5.rncits20-html5-types.rnccore-scripting-ext.rnc	html5.rnc
+xhtml5.rncxhtml11	resourcestwitter-botsmml3.env.ideavcs.xmlmisc.xml	librariespatchesR_User_Library.xmlxhtml11.dtdMakefile
+codeStylesProject.xml	patch-vnumodules.xmlxhtml-base-1.modmathml3.rncworkspace.xmlxhtml-edit-1.modmathml3-inc.rncdbnavigator.xmlxhtml-form-1.mod0004_ping.patchmathml3-common.rnc0001_html5.patchtwitter-bots.imlmathml3-content.rnc0002_xhtml5.patchmathml3-presentation.rnc0007_legacy.patchmathml3-strict-content.rncxhtml-mobilexhtml-link-1.modpatch_build.patch
+.gitignoredam_lvls.py0005_html5_namespace.patchxhtml-list-1.modmonono_bot.pyxhtml-mobile10.dtd0006_xhtml5_namespace.patchxhtml-meta-1.modschemasxhtml-mobile12.dtdproperties.dtdrelaxng.rngxhtml-pres-1.modstandardSchemasxhtmlmp12-form-1.modhtml5-schemaxhtml-ruby-1.modxhtml-mobile10-flat.dtdrdfxhtml-text-1.mod
+xhtml5.xsdxhtml-mobile12-form.modxhtml-image-1.modxml.xsdrdf.rncits2	xhtml.dtdxhtml-param-1.modxhtml-qname-1.mod	xlink.dtdxhtml-mobile10-model-1.mod
+xhtml1.dtdcatalog.xsdxhtml-mobile12-model-1.modxhtml-style-1.modextResourcesxinclude.xsdxhtml-table-1.modxslt-1_0.xsdsvg11xslt-2_0.xsdxhtml-events-1.modXMLSchema-1_1xhtml-object-1.modxhtml-script-1.modxhtml-struct-1.mod!XMLSchema-hasFacetAndProperty.xsd	svg11.rncaria.rncXMLSchema.dtdxhtml-target-1.modinkscape.rncdata.rncxhtml-attribs-1.moddatatypes.dtdsvg-clip.rncxhtml-blkpres-1.modmeta.rncsvg-font.rncxhtml-charent-1.modrdfa.rncsvg-mask.rncxhtml-csismap-1.modruby.rncxhtml1-strict.dtdsvg-text.rncxhtml-inlpres-1.modxhtml1-strict.xsd	block.rncsvg-view.rncxhtml1-frameset.dtdxhtml-ssismap-1.mod	embed.rncxhtml1-frameset.xsdsvg-image.rncxhtml11-model-1.modplugin-repository.dtdsvg-qname.rncxhtml-blkphras-1.modXMLSchema-instance.xsd	media.rncsvg-shape.rncxhtml1-transitional.dtdxhtml-inlphras-1.mod
+common.rncxhtml1-transitional.xsdsvg-style.rncxhtml-inlstyle-1.modXMLSchema-versioning.xsd
+legacy.rncsvg11-inc.rncxhtml-blkstruct-1.mod
+phrase.rncsvg-cursor.rncxhtml-datatypes-1.mod
+tables.rncsvg-filter.rncxhtml-framework-1.modsvg-marker.rncxhtml-hypertext-1.modsvg-script.rncxhtml-inlstruct-1.modrevision.rncsvg11-tiny.rncxhtml-basic-form-1.modsvg-pattern.rncxhtml-basic-table-1.modhtml5core.rncsvg-profile.rnchtml5full.rncsvg11-basic.rncmicrodata.rncsvg-gradient.rncsectional.rncsvg-animation.rncweb-forms.rncsvg-datatypes.rncsvg-hyperlink.rncstructural.rncsvg-structure.rncweb-forms2.rncinkscape-draft.rncxhtml5core.rncsvg-basic-clip.rncsvg-basic-font.rncapplications.rncsvg-basic-text.rnccore-scripting.rncsvg11-tiny-inc.rncform-datatypes.rncsvg-conditional.rnchtml5full-rdfa.rncsvg-core-attrib.rncweb-components.rncsvg11-basic-inc.rnchtml5exclusions.rncsvg-basic-filter.rncxhtml5full-html.rncsvg-paint-attrib.rncxhtml5full-xhtml.rncsvg-xlink-attrib.rncsvg-extensibility.rncsvg-opacity-attrib.rnchtml5full-rdfalite.rncsvg-basic-structure.rncweb-forms-scripting.rncsvg-graphics-attrib.rncweb-forms2-scripting.rncsvg-viewport-attrib.rncxhtml5full-xhtml-rdfa.rncsvg-container-attrib.rnchtml5full-no-microdata.rncsvg-docevents-attrib.rncxhtml5full-html-rdfalite.rncsvg-animevents-attrib.rncxhtml5full-xhtml-rdfalite.rncsvg-graphevents-attrib.rncxhtml5core-plus-web-forms2.rncsvg-extresources-attrib.rnc xhtml5full-html-no-microdata.rncsvg-basic-graphics-attrib.rnc!xhtml5full-xhtml-no-microdata.rncLICENSEhtml5-all.rnchtml5-its.rnchtml5chars.entxhtml5-all.rnchtml5-rdfalite.rncxhtml5-rdfalite.rnchtml5-svg-mathml.rncxhtml5-svg-mathml.rnchtml5-no-microdata.rnchtml5-rdfalite-w3c.rncxhtml5-no-microdata.rncxhtml5-rdfalite-w3c.rncsvg-xhtml5-rdf-mathml.rncxhtml1-ruby-rdf-svg-mathml.rnchtml5charref.rbcloud.propertiesupdate_html5_schema.shtwitter-bots.17e9874f.xmlquery.pymodelsparse.pysqlite3unittesttest_filelist.pycmd.pybuild.pyzmqstream.pyattrfilters.pyiconverters.pyiexceptions.pyivalidators.pyiidnacodec.pyidnadata.pyintranges.pyfilelist.pyuts46data.pypackage_data.pyascii.pycommon	pickle.py	shutil.py	struct.py	thread.py
+decimal.py
+tarfile.pycollectionsipaddress.py
+helpers.pysysconfig.pysubprocess.pydummyspawn.pymanagers.pypgen2generator.py
+grammar.pyhtml5lib_triepy.py	datrie.pylint.pywhitespace.pyoptionaltags.pyinject_meta_charset.pyalphabeticalattributes.pytreewalkers_ihatexml.pytreeadapterstreebuilders_tokenizer.pyserializer.pyhtml5parser.py_inputstream.pyenvironment.pytest_run.pytest_history.pytest_debugger.pytest_extension.pycode.py
+logging.pynamespace.pypackaging.pyframe.pytest_help.pycertifi
+cacert.pemchardetclichardetect.pyescsm.py	jpcntx.py	mbcssm.py
+jisfreq.pybig5freq.pyescprober.pyeuckrfreq.pyeuctwfreq.pybig5prober.pygb2312freq.pysjisprober.pyutf8prober.pycp949prober.pyeucjpprober.pyeuckrprober.pyeuctwprober.pygb2312prober.pyhebrewprober.pylatin1prober.pycharsetprober.pylangthaimodel.pylanggreekmodel.pylanghebrewmodel.pymbcharsetprober.pymbcsgroupprober.pysbcharsetprober.pysbcsgroupprober.pychardistribution.pylangturkishmodel.pylangcyrillicmodel.pyuniversaldetector.pycharsetgroupprober.pycodingstatemachine.pylangbulgarianmodel.pylanghungarianmodel.pyrun.pytestlocks.pyplatformauto.py
+windows.pyinterface.py	locale.py	queues.pytemplate.pyconcurrent.pyurllib3url.pyssl_.pywait.pyqueue.pyretry.py
+timeout.pyntlmpool.pyappengine.pypyopenssl.py_securetransportbindings.pylow_level.pysecuretransport.py_appengine_environ.pypackagesmisc.py	backportsmakefile.pyssl_match_hostname_implementation.py	fields.pyfilepost.pypoolmanager.pyconnectionpool.pytest_core.pytz.pystreaming.pytest_security.pysecurity.pytest_utils.py
+extensionsimageshighlight.jsutilbidi.jsmisc.jsxmlhttpdjangojinja2pythontornadomarkdown.jsmode	dialog.jsdisplaylibdistsrc
+robots.txtfavicon.icotools.pyapikernelssessionsterminal_sysinfo.pyextensions.py
+signals.pyweb.pydata.pydiff.pyclean.py
+parsers.py
+testing.pyterminal.py
+scanner.pyformatter.pyrequestsapi.pyauth.pyhooks.py
+cookies.pyadapters.pypackages.pysessions.pystructures.py__version__.py_internal_utils.pysocks.pytest_serialize.pyembed.pyiostream.pyserialize.pypickleutil.pydisplayhook.pyio.py	lexers.pymetadata.pytest_files.py	script.pystyle.min.css	templateshtmlterminado.jswebsocket.pysentinel.pyconfig	loader.pytraitlets.pysax.py	common.py
+minidom.py
+pulldom.pyElementTree.pyexpatreader.pycElementTree.pyexpatbuilder.py	_utils.pyvalidators.pypy.typed	typing.py
+typing.pyicommandtest.pyalias.pysdist.py	upload.pybuild_py.pyregister.pybdist_rpm.pybuild_ext.pybuild_clib.pyinstall_lib.pybdist_wininst.pyinstall_scripts.pyinstall_egg_info.pydist.pyglob.pyglibc.py
+cli-32.exe
+cli-64.exe
+sandbox.pydep_util.pyextension.pypep425tags.pyarchive_util.pytest_paths.pypaths.pywebencodingstests.py	labels.pymklabels.pyindex.pycheck.pyabc.pytokenize.pytree.py_base.pysanitizer.py
+filters.pytest_imports.pytest_decorators.pydebugger.py
+convert.pyauth	errors.py
+console.py	models.py
+test_io.pytest_markdown.py	README.mdfileswheel.py	config.pystaticcustom	custom.js
+custom.csstest_application.py_vendorsix.py	packaging
+_compat.py
+markers.py__about__.pyspecifiers.py_structures.pyrequirements.pypyparsing.pypy31compat.pychannels.pyrestarter.pylog.pyfilterscli.pywin32.py
+history.pyapplication.pycompletion.pydefaults.pyhtml.pydecorators.py
+install.py
+manager.py_version.pyLICENSE.txtentry_points.txtWHEELRECORDMETADATA	INSTALLERtop_level.txtx_user_defined.pypkg_resourcestest_connect.pytest_jsonutil.pytest_kernelspec.pytest_kernelmanager.py
+adapter.py
+connect.pyjsonutil.pylauncher.pythreaded.pyclientabc.pykernelapp.pyconsoleapp.pykernelspec.pymanagerabc.pychannelsabc.pykernelspecapp.pylocalinterfaces.pymultikernelmanager.pyinput	screen.pylexersoutputstylesstyle.pycontriblexer.pycompiler.pyenums.py	eventloopposix.py	future.py	select.pyinputhook.pyformatters.pyfilesystem.py
+current.pybasic.pyemacs.pyansi.pytest_path.pytest_text.pytest_tempdir.pytest_importstring.pypath.pytestingtext.py
+tempdir.pyencoding.pyipstruct.pypy3compat.pyimportstring.pytest_api.pytest_config.pytest_install.py	runner.py
+metrics.pyAUTHORS.txtmetadata.jsonDESCRIPTION.rst_collections.py	python3.6dbmsite-packageslib-dynloadgnu.pydumb.pyndbm.pydom	domreg.pyNodeFilter.pyminicompat.pyxmlbuilder.pysax
+handler.pysaxutils.pyxmlreader.py_exceptions.pyetreeElementPath.pypipElementInclude.pyparsersexpat.pyentities.pycookiejar.pyjsonpep517tool.py#grp.cpython-36m-x86_64-linux-gnu.so-1753425276python-skeletonsoscolorlog.pyenvbuild.pywrappers.py_in_process.pypytoml	writer.py
+decoder.py
+encoder.pypypathnosetoolsnumpymultiarray.pysupportdb#nis.cpython-36m-x86_64-linux-gnu.sotestresult.py$_bz2.cpython-36m-x86_64-linux-gnu.so$_csv.cpython-36m-x86_64-linux-gnu.so$_md5.cpython-36m-x86_64-linux-gnu.soscript_helper.pytest_support.pytest_script_helper.pyvenvscriptsposix$_ssl.cpython-36m-x86_64-linux-gnu.soactivate.csh$math.cpython-36m-x86_64-linux-gnu.soactivate.fish$mmap.cpython-36m-x86_64-linux-gnu.soactivateemail$spwd.cpython-36m-x86_64-linux-gnu.somimemail.pyformsaudio.py$zlib.cpython-36m-x86_64-linux-gnu.so%_json.cpython-36m-x86_64-linux-gnu.so%_lzma.cpython-36m-x86_64-linux-gnu.so%_sha1.cpython-36m-x86_64-linux-gnu.soimage.py%_sha3.cpython-36m-x86_64-linux-gnu.somultipart.pynonmultipart.py%array.cpython-36m-x86_64-linux-gnu.so	header.pyforms.pydistlib	policy.py
+charset.py%cmath.cpython-36m-x86_64-linux-gnu.soencoders.pyformsets.pyviewsgeneric%fcntl.cpython-36m-x86_64-linux-gnu.soiterators.pypytest_parseaddr.pybase64mime.pysys.pyfeedparser.pyquoprimime.py&_crypt.cpython-36m-x86_64-linux-gnu.sot32.exe&_heapq.cpython-36m-x86_64-linux-gnu.so&parser.cpython-36m-x86_64-linux-gnu.so&select.cpython-36m-x86_64-linux-gnu.so&syslog.cpython-36m-x86_64-linux-gnu.so_policybase.pyt64.exearchitecture.rst_encoded_words.pycontentmanager.pyheaderregistry.py'_bisect.cpython-36m-x86_64-linux-gnu.sow32.exew64.exe'_blake2.cpython-36m-x86_64-linux-gnu.so	_backport_csv.py_pytest'_ctypes.cpython-36m-x86_64-linux-gnu.so_header_value_parser.pyos.pyre.pyuu.pymarksysconfig.cfg'_curses.cpython-36m-x86_64-linux-gnu.so
+scripts.pydatabase.pyast.pybdb.pybz2.pycgi.pycsv.pyctypesmacholibdyld.pydylib.pyframework.pylocators.pymanifest.pyresources.pymsgpackREADME.ctypesfetch_macholibfetch_macholib.bat
+_endian.pywintypes.pycursespanel.py
+has_key.py
+textpad.pydis.pyimp.pypdb.pypty.pyssl.pytty.pyrobotparser.pyxmlrpcaifc.pylettuce'_lsprof.cpython-36m-x86_64-linux-gnu.so
+terrain.pytasks.py	behave.py
+alembic.py'_opcode.cpython-36m-x86_64-linux-gnu.sofallback.py
+futures.py
+streams.pysslproto.pyprotocols.pybase_tasks.pycoroutines.pytransports.py'_pickle.cpython-36m-x86_64-linux-gnu.so'_random.cpython-36m-x86_64-linux-gnu.sobase_events.pyunix_events.pybase_futures.pywindows_utils.pywindows_events.pybase_subprocess.py'_sha256.cpython-36m-x86_64-linux-gnu.soproactor_events.pyselector_events.py'_sha512.cpython-36m-x86_64-linux-gnu.soStringIO.pyenum.pycStringIO.pyio.pyire.pyigzip.pyhmac.py	locks.pyi	tasks.pyiidlelib
+events.pyiIconstk.gifidle.ico	idle.icns
+folder.giffutures.pyi
+python.gifidle_16.gifidle_16.pngidle_32.gifidle_32.pngidle_48.gifrunners.pyiidle_48.pngstreams.pyiplusnode.gifminusnode.gifprotocols.pyiopenfolder.gifcoroutines.pyirpc.pytransports.pyi	types.pyi
+signal.pyiabc.pyipathlib.pyifunctools.pyiitertools.pyipool.pyicontext.pyiprocess.pyimanagers.pyisynchronize.pyi_importlib_modulespec.pyigrep.pyidle.pyundo.pyNEWS.txtTODO.txtidle.batidle.pywcolorama
+winterm.pyinitialise.pyansitowin32.py
+dbapi2.pyissl.pyimath.pyitime.pyiuuid.pyi	ChangeLog	editor.py	help.html	idle_test
+shutil.pyihtest.py
+socket.pyiargparse.pyi
+mock_tk.pydatetime.pyithreading.pyitest_rpc.pymock_idle.pysixmovestest_grep.pytest_tree.pytest_undo.pytest_query.pytest_editor.pytest_iomenu.pytest_macosx.pytest_outwin.pytest_rstrip.pytest_search.py	error.pyi	parse.pyi'_socket.cpython-36m-x86_64-linux-gnu.so'_struct.cpython-36m-x86_64-linux-gnu.sorequest.pyiresponse.pyi'audioop.cpython-36m-x86_64-linux-gnu.solockfilepidlockfile.pyrobotparser.pyilinklockfile.pytest_window.pytest_browser.pytest_calltip.pytest_pyparse.pytest_pyshell.pytest_replace.pytest_tooltip.pytest_warning.py'pyexpat.cpython-36m-x86_64-linux-gnu.sotest_debugobj.pytest_editmenu.pymkdirlockfile.py'termios.cpython-36m-x86_64-linux-gnu.sotest_mainmenu.py_thread.pyitest_squeezer.pycPickle.pyitest_textview.pyreprlib.pyitest_calltip_w.pytest_colorizer.pytest_delegator.pytest_multicall.pytest_paragraph.py(_asyncio.cpython-36m-x86_64-linux-gnu.sotest_runscript.pytest_statusbar.pytest_autoexpand.pytest_config_key.pysqlitelockfile.pytest_debugger_r.pytkinter.pyihtml_parser.pyihttp_client.pyitkinter_ttk.pyiconfigparser.pyihttp_cookies.pyisocketserver.pyiurllib_error.pyiurllib_parse.pyiCGIHTTPServer.pyi_dummy_thread.pyihtml_entities.pyiBaseHTTPServer.pyihttp_cookiejar.pyitkinter_dialog.pyiurllib_request.pyiemail_mime_base.pyiemail_mime_text.pyiurllib_response.pyiSimpleHTTPServer.pyi(_decimal.cpython-36m-x86_64-linux-gnu.so(_hashlib.cpython-36m-x86_64-linux-gnu.sosymlinklockfile.pytest_debugobj_r.pyprogresstest_help_about.pybar.pytest_parenmatch.py
+counter.pytest_percolator.py
+spinner.pytest_redirector.pytest_searchbase.pytest_zoomheight.pytest_codecontext.pytest_hyperparser.pytest_pathbrowser.pytest_stackviewer.pytest_autocomplete.pytest_configdialog.pytest_scrolledlist.pytest_searchengine.pytest_autocomplete_w.py	iomenu.py	macosx.py	outwin.py	rstrip.py	window.py
+NEWS2x.txttkinter_constants.pyi(_sqlite3.cpython-36m-x86_64-linux-gnu.so
+_pyclbr.py
+browser.py
+calltip.py
+extend.txt
+pyparse.py
+pyshell.py
+replace.py
+tooltip.py
+zzdummy.pyCREDITS.txtHISTORY.txt	distro.pytkinter_filedialog.pyi(_tkinter.cpython-36m-x86_64-linux-gnu.so(binascii.cpython-36m-x86_64-linux-gnu.sourllib_robotparser.pyiemail_mime_multipart.pyitkinter_commondialog.pyitkinter_tkfiledialog.pyiemail_mime_nonmultipart.pyi(readline.cpython-36m-x86_64-linux-gnu.so(resource.cpython-36m-x86_64-linux-gnu.so)_datetime.cpython-36m-x86_64-linux-gnu.sodebugobj.pymainmenu.pysqueezer.pytextview.pycalltip_w.py)_testcapi.cpython-36m-x86_64-linux-gnu.socolorizer.pydelegator.pydynoption.pymulticall.pyparagraph.pyrunscript.pystatusbar.pyautoexpand.pyretrying.pyconfig_key.pycachecontroldebugger_r.pycachesdebugobj_r.pyhelp_about.pyfile_cache.pyparenmatch.pyredis_cache.pypercolator.py_cmd.pyredirector.pysearchbase.pyzoomheight.pycodecontext.py
+wrapper.pyhyperparser.pypathbrowser.pystackviewer.pycontroller.pyautocomplete.pyheuristics.pyfilewrapper.py)xxlimited.cpython-36m-x86_64-linux-gnu.so	_internalconfig-keys.defcmdoptions.pymain_parser.pybase_command.pyconfig-main.def*_codecs_cn.cpython-36m-x86_64-linux-gnu.soconfigdialog.pyscrolledlist.py*_codecs_hk.cpython-36m-x86_64-linux-gnu.soautocompletion.pyreq
+req_set.pyreq_file.pyreq_install.pyreq_tracker.pyconstructors.pyreq_uninstall.pyvcsgit.py	bazaar.pysearchengine.pyautocomplete_w.pyconfig-highlight.def*_codecs_jp.cpython-36m-x86_64-linux-gnu.soconfig-extensions.deflib2to3fixes	fix_ne.py
+fix_map.py
+fix_zip.pyfix_dict.pyfix_exec.pyfix_long.pyfix_next.pymercurial.pysubversion.pyui.py	hashes.pyoutdated.pytemp_dir.pydeprecation.pysetuptools_build.pylink.pycandidate.pyformat_control.pycommandshash.pylist.pyshow.pyfix_repr.pyfix_apply.pyfix_input.pyfix_paren.pyfix_print.pyfix_raise.pyfix_throw.pyfix_types.pyfix_buffer.pyfix_except.pyfix_filter.py*_codecs_kr.cpython-36m-x86_64-linux-gnu.souninstall.py
+operations
+prepare.py*_codecs_tw.cpython-36m-x86_64-linux-gnu.sofix_future.pyfix_idioms.pyfix_import.pyfix_intern.pyfix_reduce.pyfix_reload.pyfix_urllib.pyfix_xrange.py
+resolve.py+_testbuffer.cpython-36m-x86_64-linux-gnu.sofix_asserts.pyfix_getcwdu.py+ossaudiodev.cpython-36m-x86_64-linux-gnu.sofix_has_key.pyfix_imports.pyfix_nonzero.pyfix_renames.pyfix_sys_exc.pyfix_unicode.pyfix_execfile.pyfix_exitfunc.pyfix_imports2.pyfix_operator.pyfix_ws_comma.pyfix_funcattrs.pyfix_itertools.pyfix_metaclass.pyfix_raw_input.pyfix_basestring.pyfix_isinstance.pybuild_env.pylocations.pypyproject.pyfix_xreadlines.pyfix_methodattrs.pyfix_numliterals.py+unicodedata.cpython-36m-x86_64-linux-gnu.sozmqlogssh	tunnel.pyfix_set_literal.py,_ctypes_test.cpython-36m-x86_64-linux-gnu.sofix_tuple_params.pyfix_standarderror.pyfix_itertools_imports.pyconv.pypgen.py	driver.pyliterals.pydata
+forward.py,_elementtree.cpython-36m-x86_64-linux-gnu.sogreen-_curses_panel.cpython-36m-x86_64-linux-gnu.so	device.py/_codecs_iso2022.cpython-36m-x86_64-linux-gnu.sobom.pyfixersmyfixesfix_last.pyfix_first.pyfix_parrot.py/_multibytecodec.cpython-36m-x86_64-linux-gnu.sofix_explicit.pyfix_preorder.pybad_order.pysugar/_testmultiphase.cpython-36m-x86_64-linux-gnu.so
+tracker.pyattrsettr.pystopwatch.pytest_asyncio.py_test_asyncio.pytest_etc.pytest_ssh.pytest_z85.pytest_auth.pytest_pair.pytest_poll.pytest_draft.pytest_error.pytest_device.pytest_future.pytest_ioloop.pytest_pubsub.pytest_reqrep.pytest_socket.pytest_context.pytest_message.pytest_monitor.pytest_includes.pytest_monqueue.pytest_constants.pytest_multipart.pytest_zmqstream.pytest_win32_shim.pytest_retry_eintr.pytest_cffi_backend.pytest_proxy_steerable.pyz85.pymutex.h
+garbage.pyno_fixer_cls.pyparrot_example.pycrlf.pyfalse_encoding.pypy2_test_grammar.pypy3_test_grammar.pydifferent_encoding.pyinfinite_recursion.pytest_main.py0_multiprocessing.cpython-36m-x86_64-linux-gnu.sotest_fixers.pytest_parser.pytest_pytree.pytest_refactor.py
+interop.py
+jsonapi.py0_posixsubprocess.cpython-36m-x86_64-linux-gnu.sotest_all_fixers.pypytree_idempotency.py	pygram.py	pytree.py
+patcomp.pyGrammar.txt3_testimportmultiple.cpython-36m-x86_64-linux-gnu.sorefactor.pybtm_utils.pyfixer_base.pyfixer_util.pybtm_matcher.pyPatternGrammar.txt
+monitor.pyGrammar3.6.8.final.0.picklebuffers.pxdconfig.jsonipcmaxlen.hsixcerpt.pystrtypes.pyzmq_compat.hcompiler.jsongetpid_compat.hzmq_constants.h"PatternGrammar3.6.8.final.0.pickleconstant_names.pyloggingpyversion_compat.hbackendlzma.pycffisite.py_cdefs.hdump.py_cffi.py	dbapi2.py_poll.pystat.pythis.py	_verify.ctkinterdnd.pytix.py
+devices.pyttk.pyfont.py	dialog.pycythonfiledialog.pymessagebox.pycolorchooser.pycommondialog.pyscrolledtext.pysimpledialog.pyuuid.pywave.pywsgiref
+headers.py
+libzmq.pxdvalidate.pysimple_server.py_pyio.pycgitb.pychunk.pycrypt.pyheapq.pynetrc.pypipes.py
+socket.pxdpydoc.pyrunpy.pysched.pyshlex.pysmtpd.pysunau.pytrace.pytypes.pycase.pycheckrc.pxdmock.pysuite.py	result.pycontext.pxd	base64.py	binhex.py	bisect.py	codecs.py	codeop.py	distutils
+xxmodule.cmessage.pxdtest_cmd.pyconstants.pxiSetup.sampletest_dist.pytest_bdist.pyconstant_enums.pxitest_build.pytest_check.pytest_clean.pytest_sdist.pytest_spawn.py%_poll.cpython-36m-x86_64-linux-gnu.sotest_upload.pytest_build_py.pytest_dep_util.pytest_dir_util.pytest_register.pytest_bdist_msi.pytest_bdist_rpm.pytest_build_ext.pytest_file_util.pytest_sysconfig.pytest_text_file.py%error.cpython-36m-x86_64-linux-gnu.sotest_bdist_dumb.pytest_build_clib.pytest_config_cmd.pytest_install_lib.pytest_archive_util.pytest_install_data.py%utils.cpython-36m-x86_64-linux-gnu.sotest_msvccompiler.pytest_bdist_wininst.pytest_build_scripts.pytest_msvc9compiler.pytest_unixccompiler.pytest_cygwinccompiler.py&socket.cpython-36m-x86_64-linux-gnu.sotest_install_headers.pytest_install_scripts.pytest_versionpredicate.py'_device.cpython-36m-x86_64-linux-gnu.so'context.cpython-36m-x86_64-linux-gnu.sobdist.py'message.cpython-36m-x86_64-linux-gnu.so(_version.cpython-36m-x86_64-linux-gnu.sobdist_msi.py)constants.cpython-36m-x86_64-linux-gnu.sobdist_dumb.py0_proxy_steerable.cpython-36m-x86_64-linux-gnu.soinstall_data.pydevicesbasedevice.pyproxydevice.pymonitoredqueue.pywininst-6.0.exewininst-7.1.exemonitoredqueue.pxdmonitoredqueuedevice.pyproxysteerabledevice.pywininst-8.0.exewininst-9.0.exebuild_scripts.pycommand_templatewininst-10.0.exewininst-14.0.exe.monitoredqueue.cpython-36m-x86_64-linux-gnu.soinstall_headers.pywininst-9.0-amd64.exeminitornadowininst-10.0-amd64.exestack_context.py_deprecated.py
+_future.py_make.py	_funcs.py
+_config.pywininst-14.0-amd64.execonverters.pydir_util.pyccompiler.pyjedifile_util.pytext_file.pybcppcompiler.pyfancy_getopt.pymsvccompiler.py_msvccompiler.pymsvc9compiler.pyunixccompiler.pycygwinccompiler.pyversionpredicate.py	encodingshz.pygbk.py
+classes.pyoem.pybig5.pyidna.pymbcs.py
+project.pycp037.pykeywords.pycp273.pycp424.pycp437.pycp500.pyinterpreter.pycp720.pyreplstartup.pycp737.pycp775.pycp850.pycp852.pycp855.pycp856.pycp857.pyevaluatecp858.pycontextcp860.pyklass.pycp861.py	module.pycp862.pycp863.pyfunction.pycp864.pyinstance.pycp865.pyiterable.pycp866.pycp869.pycp874.pycp875.pycp932.pycp949.pycp950.pyjohab.pyutf_7.pyutf_8.py	cp1006.py	cp1026.py	cp1125.py	cp1140.py	cp1250.py	cp1251.py	cp1252.py	cp1253.py	cp1254.py	cp1255.py	cp1256.py	cp1257.py	cp1258.py	euc_jp.py	euc_kr.py	gb2312.py	koi8_r.py	koi8_t.py	koi8_u.py	kz1048.py	palmos.py	rot_13.py	utf_16.py	utf_32.py
+aliases.py
+charmap.py
+cp65001.py
+gb18030.py
+latin_1.py
+ptcp154.py
+tis_620.pypunycode.pyuu_codec.pybig5hkscs.pybz2_codec.pyhex_codec.pyhp_roman8.pyiso8859_1.pyiso8859_2.pyiso8859_3.pyiso8859_4.pyiso8859_5.pyiso8859_6.pyiso8859_7.pyasynchronous.pyiso8859_8.pyiso8859_9.pycompiledmac_farsi.pyfakemac_greek.pymac_roman.pyshift_jis.pyundefined.pyio.pymutf_16_be.pyutf_16_le.pyutf_32_be.pyutf_32_le.pyutf_8_sig.pyiso2022_jp.pyiso2022_kr.pyiso8859_10.pyiso8859_11.py_sre.pymiso8859_13.pyiso8859_14.pyiso8859_15.pyiso8859_16.pymac_arabic.pymac_latin2.py	posix.pymzlib_codec.pymac_iceland.pymac_turkish.pybase64_codec.pyeuc_jis_2004.pyeuc_jisx0213.pyiso2022_jp_1.py_sqlite3.pymiso2022_jp_2.pyiso2022_jp_3.pymac_centeuro.pymac_croatian.pymac_cyrillic.pymac_romanian.pyquopri_codec.pyiso2022_jp_ext.pyshift_jis_2004.pyshift_jisx0213.pyunicode_escape.pyiso2022_jp_2004.pyunicode_internal.pyraw_unicode_escape.py	ensurepip_bundled_weakref.pymbuiltins.pympip-18.1-py2.py3-none-any.whldatetime.pymoperator.pym&setuptools-40.6.2-py2.py3-none-any.whl_uninstall.py	ftplib.py	getopt.py	imghdr.py	importlibmachinery.py_bootstrap.py_bootstrap_external.py	ntpath.py	opcode.py	poplib.py	pprint.py	pstats.py	pyclbr.py	quopri.py	random.py	shelve.py	signal.py	sndhdr.py	string.py	symbol.py	timeit.py	turtle.py	xdrlib.py	zipapp.py
+concurrentfutures
+copyreg.py
+difflib.py
+doctest.py
+filecmp.py
+fnmatch.py
+getpass.py
+gettext.py
+hashlib.py
+imaplib.py
+inspect.py
+keyword.py
+macpath.py
+mailbox.py
+mailcap.py
+nntplib.py
+numbers.py
+pathlib.py
+pkgutil.py
+profile.py
+pydoc_data	topics.py
+_pydoc.css
+reprlib.py
+secrets.py
+smtplib.py
+turtledemonim.pychaos.pyclock.pypaint.pypeace.py	forest.py
+penrose.py
+rosette.py
+turtle.cfg
+yinyang.pybytedesign.pycolormixer.pylindenmayer.pyround_dance.pytwo_canvases.pyfractalcurves.pyminimal_hanoi.pyplanet_and_moon.pysorting_animate.py
+weakref.py
+zipfile.pyargparse.pyasynchat.pyasyncore.pycProfile.pycalendar.pycolorsys.pydatetime.py_functools.pymoperator.pyfake.pyoptparse.pymixed.pyplatform.py	access.pyplistlib.pysymtable.py
+subprocesstabnanny.pytempfile.pytextwrap.pyfunctions.pywarnings.pygetattr_static.py_strptime.pyparam.pyfileinput.py	finder.py	stdlib.pyfractions.py	usages.pyfunctools.py
+dynamic.pylinecache.pymimetypes.py
+imports.pyposixpath.py
+pep0484.pyselectors.pysre_parse.pyanalysis.pytelnetlib.pythreading.pytraceback.py__future__.py_pydecimal.pycompileall.pycontextlib.pynturl2path.pypy_compile.pysys_path.pystatistics.pyarguments.pystringprep.pyrecursion.pydocstrings.pywebbrowser.pyjedi_typing.py_bootlocale.pysyntax_tree.py_markupbase.pybase_context.py_weakrefset.pylazy_context.pyantigravity.pyparser_cache.pygenericpath.pymacurl2path.pypickletools.pyrlcompleter.pysre_compile.pytracemalloc.py_compression.py_osx_support.pyconfigparser.pymodulefinder.pyheap.pypool.pyreduction.pyforkserver.pypopen_fork.pysynchronize.pysharedctypes.pyresource_sharer.pypopen_forkserver.pypopen_spawn_posix.pypopen_spawn_win32.pysemaphore_tracker.pysocketserver.py_dummy_thread.py_sitebuiltins.pysre_constants.py__phello__.foo.py_compat_pickle.pydummy_threading.py_collections_abc.py_threading_local.pyconfig-3.6m-x86_64-linux-gnuSetupflow_analysis.pysettings.pyrefactoring.pyparser_utils.pyparsogrammar_parser.pypep8.pyconfig.c	prefix.pygrammar26.txtgrammar27.txtgrammar33.txtgrammar34.txtpython.o	makesetupgrammar35.txtgrammar36.txt
+install-shgrammar37.txtgrammar38.txt
+file_io.pySetup.localnormalizer.pywheelpack.py	unpack.py
+pkginfo.pywheelfile.pyconfig.c.inbdist_wheel.pybleachSetup.config
+README.rst
+vendor.txtpip_install_vendor.shhtml5lib-1.0.1.dist-infocallbacks.pylinkifier.pyhtml5lib_shim.pydotenv
+ipython.pyext.pymeta.pynodes.py
+bccache.py
+loaders.py
+runtime.py
+visitor.pyoptimizer.pyidtracking.py_identifier.pynativetypes.pyasyncfilters.pyasyncsupport.pytweepy	binder.py	cursor.pyIPythontest.wavtest_lexers.pytest_pretty.pytest_clipboard.pytest_deepreload.pytest_latextools.pytest_editorhooks.pytest_backgroundjobs.pydemo.py	kernel.py	pretty.pyclipboard.pydeepreload.pyguisupport.pylatextools.pyeditorhooks.pyinputhookwx.pyinputhookgtk.pyinputhookqt4.pyinputhookglut.pyinputhookgtk3.pybackgroundjobs.pyinputhookpyglet.py2x2.jpg2x2.png	refbug.py	tclass.py
+bad_all.pynonascii.pynonascii2.pysimpleerr.pytest_page.pyprint_argv.pytest_alias.pytest_hooks.pytest_iplib.pytest_magic.pydaft_extensiondaft_extension.pytest_events.pytest_logger.pytest_profile.pytest_prompts.pytest_ultratb.pytest_autocall.pytest_handlers.pylibpython3.6m.apython-config.py*_sysconfigdata_m_linux_x86_64-linux-gnu.py+_sysconfigdata_i686_conda_cos6_linux_gnu.py+_sysconfigdata_x86_64_apple_darwin13_4_0.py-_sysconfigdata_x86_64_conda_cos6_linux_gnu.py2_sysconfigdata_powerpc64le_conda_cos7_linux_gnu.pytest_oinspect.pytest_shellapp.pytest_completer.pytest_prefilter.pytest_compilerop.pytest_formatters.pytest_pylabtools.pytest_splitinput.pytest_displayhook.pytest_completerlib.pytest_async_helpers.pytest_inputsplitter.pytest_magic_terminal.pytest_magic_arguments.pytest_inputtransformer.pytest_interactiveshell.pytest_inputtransformer2.pytest_inputtransformer2_line.pymagicsosm.pypylab.pyexecution.pypage.pyprofileREADME_STARTUPmacro.pymagic.pyusage.py	logger.py
+payload.py
+release.py
+ultratb.pyautocall.pyexcolors.pyoinspect.pyshellapp.pycompleter.pyprefilter.pycompilerop.pydisplaypub.pygetipython.pyhistoryapp.pyprofileapp.pyprofiledir.pypylabtools.pysplitinput.pypayloadpage.pybuiltin_trap.pycompleterlib.pycrashhandler.pydisplay_trap.pyasync_helpers.pyinputsplitter.pylatex_symbols.pymagic_arguments.pyinputtransformer.pyinputtransformer2.pytest_dir2.pytest_openpy.pytest_capture.pytest_process.pytest_sysinfo.pytest_wildcard.pytest_tokenutil.pytest_pycolorize.pytest_shimmodule.pytest_module_paths.pydir2.py	openpy.py	timing.py
+capture.py
+sysinfo.pycontexts.pyeventful.pygenerics.pywildcard.pycolorable.pycoloransi.pydaemonize.pytokenutil.pyPyColorize.pyshimmodule.pysignatures.pyulinecache.pystrdispatch.py_process_cli.pymodule_paths.py_process_posix.py_process_win32.pysyspathcontext.py_process_common.py_process_win32_controller.pykerneltest_tools.pytest_ipunittest.pypluginsetup.py	simple.pydtexample.pyipdoctest.pyshow_refs.pytest_refs.pysimplevars.pytest_combo.txttest_example.txttest_ipdoctest.pytest_exampleip.txtipunittest.pyglobalipapp.pyskipdoctest.pyiptestcontroller.pyexternal
+decorators_decorators.py_numpy_testing_noseclasses.py
+mathjax.pyqt_loaders.pyqt_for_kernel.pytest_embed.pytest_debug_magic.pytest_interactivshell.pyipapp.py	magics.py
+ptshell.py
+ptutils.pyshortcuts.pypt_inputhookstk.pywx.pygtk.pyosx.pyglut.pygtk3.py	pyglet.py	sphinxextcustom_doctests.pyipython_directive.pyipython_console_highlighting.pytest_autoreload.pytest_storemagic.py	rmagic.pystoremagic.pycythonmagic.pysympyprinting.pyfrontend.pynbformat.pyparallel.pynbconvert.pypexpectFSM.pyANSI.pypxssh.py	_async.py	bashrc.sh	expect.pyreplwrap.pyfdpexpect.pypty_spawn.pyspawnbase.pypopen_spawn.pydir
+index.html
+sample.xmlsample.xml.gzsample.xml.bz2test.crttest.key	utf8.htmlgen_test.pylog_test.pyruntests.pyweb_test.pyauth_test.pyutil_test.pywsgi_test.pylocks_test.pyescape_test.pyimport_test.pyioloop_test.pylocale_test.pyqueues_test.pystatic_foo.txtasyncio_test.pynetutil_test.pyoptions_test.pyprocess_test.pyrouting_test.pytesting_test.pytwisted_test.pywindows_test.pycsv_translations	fr_FR.csvhttputil_test.pyiostream_test.pyoptions_test.cfgtemplate_test.pytcpclient_test.pytcpserver_test.pywebsocket_test.pyautoreload_test.pyconcurrent_test.pyhttpclient_test.pyhttpserver_test.pygettext_translationstornado_test.motornado_test.pooptions_test_types.cfgresolve_test_helper.pycurl_httpclient_test.pyhttp1connection_test.pysimple_httpclient_test.pyoptions_test_types_str.cfggen.pywsgi.py
+asyncio.py
+twisted.pycaresresolver.py	escape.py
+netutil.py
+options.py
+routing.pyhttputil.pytcpclient.pytcpserver.pyhttpclient.pyhttpserver.py_locale_data.pycurl_httpclient.pyhttp1connection.pysimple_httpclient.py(speedups.cpython-36m-x86_64-linux-gnu.sorfc3986iri.pyuri.py	_mixin.py
+builder.pyabnf_regexp.pynormalizers.pyparseresult.pywcwidth
+wcwidth.pytable_wide.pytable_zero.pybackcallbackcall.py_signatures.pydateutiltzwin.py_factories.pyparser
+_parser.pyisoparser.pyrrule.pytzwin.pyzoneinfo
+rebuild.pydateutil-zoneinfo.tar.gz	easter.pyrelativedelta.pyexamplesoauth.pynbformatv1v2nbxml.pyv3test_misc.pynbformat.v3.schema.jsonv4test_validate.pynbformat.v4.schema.jsontest2.ipynbtest3.ipynbtest4.ipynbtest_sign.pyinvalid.ipynbtest_reader.pytest4plus.ipynbtest4custom.ipynbtest_validator.pytest4docinfo.ipynbtest4jupyter_metadata.ipynbsign.py	reader.pyconverter.pyvalidator.pynotebooknode.pytest_login.pylogin.py	logout.pyzmqhandlers.pyi18nzh_CNtest_tree_handler.pyviewutil.jssave.js	output.jsdualmode.jsshutdown.jsbuffering.jsinject_js.jsinterrupt.jsroundtrip.jsdisplay_id.jskernel_menu.jsmultiselect.jsexecute_code.jsisolated_svg.jsdisplay_image.jsnotifications.jsdualmode_merge.jsdualmode_arrows.jsmerge_cells_api.jsdualmode_execute.jsdualmode_cellmode.jsdualmode_markdown.jsdualmode_clipboard.jsmultiselect_toggle.jssafe_append_output.jsmove_multiselection.jsclipboard_multiselect.jsexecute_selected_cells.jsseleniumconftest.pyundelete.pyquick_selenium.pytest_deletecell.pytest_dashboard_nav.pytest_prompt_numbers.pytest_find_and_replace.pytest_save_as_notebook.pytest_dualmode_insertcell.pytest_i18n.pymockextensionlaunchnotebook.pytest_notebookapp.pytest_nbextensions.pytest_config_manager.pytest_serverextensions.py_tz.pyloginmain.jslogoutmain.jsloginwidget.jsi18n.jspage.js	events.jsnamespace.jsnotificationwidget.jslogo.pngfavicon-file.icofavicon-busy-1.icofavicon-busy-2.icofavicon-busy-3.icofavicon-notebook.icofavicon-terminal.icobidinumericshaping.js	editor.jskernellist.jsnewnotebook.jssessionlist.jsnotebooklist.jsterminallist.jsshutdownbutton.jsstyle
+style.lessipython.lessipython.min.cssstyle.min.css.mapipython.min.css.mapcell.jstour.jsabout.jspager.js
+actions.js
+toolbar.js
+tooltip.jscodecell.jsnotebook.jstextcell.jsclipboard.jscompleter.jsquickhelp.jsoutputarea.jscelltoolbar.jscontexthint.jsmaintoolbar.jsmathjaxutils.jsscrollmanager.jscommandpalette.jskernelselector.jsshortcuteditor.jscelltoolbarpresets
+default.js
+example.js
+rawcell.jsslideshow.jskeyboardmanager.jssearchandreplace.jscodemirror-ipython.jscodemirror-ipythongfm.jscomm.jscontents.js
+componentsjedjed.jsjqueryjquery.min.jsmarked	marked.jsmomentmin
+locales.jsmoment.min.jslocales.min.jsmoment-with-locales.jsmoment-with-locales.min.js	moment.jspreactMathJaxjaxSVGimageFonts.js	NativeMML
+CommonHTMLPlainSourcePreviewHTMLelementmmloptable	Arrows.jsDingbats.jsBasicLatin.jsMathOperators.jsMiscTechnical.jsGreekAndCoptic.jsGeometricShapes.jsCombDiacritMarks.jsLatin1Supplement.jsMiscMathSymbolsA.jsMiscMathSymbolsB.jsLetterlikeSymbols.jsSpacingModLetters.jsSuppMathOperators.jsGeneralPunctuation.jsCombDiactForSymbols.jsSupplementalArrowsA.jsSupplementalArrowsB.jsMiscSymbolsAndArrows.jswoffSTIXMathJax_Main-Bold.woffSTIXMathJax_Misc-Bold.woffSTIXMathJax_Latin-Bold.woffSTIXMathJax_Marks-Bold.woffSTIXMathJax_Arrows-Bold.woffSTIXMathJax_Main-Italic.woffSTIXMathJax_Misc-Italic.woffSTIXMathJax_Normal-Bold.woffSTIXMathJax_Shapes-Bold.woffSTIXMathJax_Fraktur-Bold.woffSTIXMathJax_Latin-Italic.woffSTIXMathJax_Main-Regular.woffSTIXMathJax_Marks-Italic.woffSTIXMathJax_Misc-Regular.woffSTIXMathJax_Symbols-Bold.woffSTIXMathJax_Latin-Regular.woffSTIXMathJax_Marks-Regular.woffSTIXMathJax_Normal-Italic.woffSTIXMathJax_Script-Italic.woffSTIXMathJax_Size1-Regular.woffSTIXMathJax_Size2-Regular.woffSTIXMathJax_Size3-Regular.woffSTIXMathJax_Size4-Regular.woffSTIXMathJax_Size5-Regular.woffSTIXMathJax_Variants-Bold.woffSTIXMathJax_Alphabets-Bold.woffSTIXMathJax_Arrows-Regular.woffSTIXMathJax_Operators-Bold.woffSTIXMathJax_SansSerif-Bold.woffSTIXMathJax_Script-Regular.woffSTIXMathJax_Shapes-Regular.woff STIXMathJax_Fraktur-Regular.woff STIXMathJax_Main-BoldItalic.woff STIXMathJax_Misc-BoldItalic.woff STIXMathJax_Symbols-Regular.woff STIXMathJax_Variants-Italic.woff!STIXMathJax_Alphabets-Italic.woff!STIXMathJax_Latin-BoldItalic.woff!STIXMathJax_Marks-BoldItalic.woff!STIXMathJax_SansSerif-Italic.woff!STIXMathJax_Variants-Regular.woff"STIXMathJax_Alphabets-Regular.woff"STIXMathJax_DoubleStruck-Bold.woff"STIXMathJax_Monospace-Regular.woff"STIXMathJax_Normal-BoldItalic.woff"STIXMathJax_Operators-Regular.woff"STIXMathJax_SansSerif-Regular.woff"STIXMathJax_Script-BoldItalic.woff"STIXMathJax_Shapes-BoldItalic.woff$STIXMathJax_DoubleStruck-Italic.woff$STIXMathJax_Variants-BoldItalic.woff%STIXMathJax_Alphabets-BoldItalic.woff%STIXMathJax_DoubleStruck-Regular.woff%STIXMathJax_SansSerif-BoldItalic.woff(STIXMathJax_DoubleStruck-BoldItalic.woffTeX-AMS-MML_HTMLorMML-full.js
+MathJax.jsHTML.jsbbox.jsmhchem3verb.jsAMScd.jscolor.js	action.js	cancel.js
+AMSmath.js
+enclose.js
+unicode.jsautobold.jsextpfeil.jsnoErrors.jsAMSsymbols.jsbegingroup.jsboldsymbol.jsmathchoice.jsnewcommand.jsnoUndefined.jsautoload-all.jsmediawiki-texvc.jsa11ymathmapsmathmaps_ie.jsexplorer.jscollapsible.jsmathjax-sre.jsauto-collapse.jssemantic-enrich.jswgxpath.install.jsinvalid_keypress.mp3invalid_keypress.oggaccessibility-menu.jsMathMLmml3.jscontent-mathml.jshandle-floats.js
+mml2jax.js
+tex2jax.jsMathZoom.jstoMathML.jsMathEvents.jsjsMath2jax.jsAssistiveMML.jsfast-preview.jsCHTML-preview.jsMatchWebFonts.jsasciimath2jax.jslocalizationarar.jsbgbg.jsbrbr.jscaca.jscece.jscscs.jscycy.jsdada.jsdede.jsen.jseoeo.jses.jsfafa.jsfifi.jsfrfr.jsglgl.jshehe.jsiaia.jsitit.jsjaja.jsknkn.jskoko.jslblb.jsltlt.jsmkmk.jsnlnl.jsococ.jsplpl.jsptpt.jsruru.jssksk.jsslsl.jssvsv.jsthth.jstrtr.jsukuk.jsvivi.jsastast.jsbccbcc.jscdocdo.jsdiqdiq.jslkilki.jsqqqqqq.jsscnscn.jsscosco.jspt-brpt-br.jszh-hans
+zh-hans.jszh-hant
+zh-hant.jsbackbonebackbone-min.jsxterm.js	bootstrapbootstrap.min.js	jquery-uithemes
+smoothnessui-icons_222222_256x240.pngui-icons_2e83ff_256x240.pngui-icons_454545_256x240.pngui-icons_888888_256x240.pngui-icons_cd0a0a_256x240.pngui-bg_glass_55_fbf9ee_1x400.pngui-bg_glass_65_ffffff_1x400.pngui-bg_glass_75_dadada_1x400.pngui-bg_glass_75_e6e6e6_1x400.pngui-bg_glass_95_fef1ec_1x400.png(ui-bg_highlight-soft_75_cccccc_1x100.pngjquery-ui.min.cssjquery-ui.min.js	proptypes	requirejs
+require.js
+codemirrorcodemirror.css	legacy.js
+methods.js
+options.jscommands.jsCodeMirror.jskey_events.jsdrop_events.jsfromTextArea.jsmouse_events.jsglobal_events.jsdeleteNearSelection.jslinepos.jsspans.jsline_data.jsutils_line.jssaw_special_spans.jsdom.jsevent.js
+browser.jsStringStream.jsoperation_group.jsfeature_detection.jsinput.js	indent.js	keymap.jskeynames.jsmovement.jsTextareaInput.jsContentEditableInput.jsmodelDoc.jschunk.js
+changes.js
+history.jsmark_text.jsline_widget.jsdocument_data.jsselection_updates.jschange_measurement.jsfocus.js
+Display.js
+gutters.jsscrolling.jsmode_state.jsoperations.jsscrollbars.jsupdate_line.jsline_numbers.jsupdate_lines.jsscroll_events.jsview_tracking.jsupdate_display.jshighlight_worker.jsmodes.jsmeasurement
+widgets.jsposition_measurement.jsdd.jsqq.jsrr.jsgogo.jsozoz.jsvbvb.jsaplapl.jscss.jsdtddtd.jseclecl.jselmelm.jsfclfcl.jsgasgas.jsgfmgfm.jsidlidl.jsjsxjsx.jslualua.jsphpphp.jspigpig.jspugpug.jsrpmrpm.jsrstrst.jssassas.jssoysoy.jssqlsql.jstcltcl.jsvuevue.jsxml.jsz80z80.jsdartdart.jsdiffdiff.jsebnfebnf.jshamlhaml.jshaxehaxe.jshttp.jsmboxmbox.jsmircmirc.jsnsisnsis.jsperlperl.jsrubyruby.jsrustrust.jssasssass.jsslimslim.jssolrsolr.jsstexstex.jstikitiki.jstiki.csstomltoml.jsttcnttcn.jstwigtwig.jsvhdlvhdl.jsyamlyaml.jsasn.1asn.1.jsclikeclike.jscmakecmake.jscobolcobol.jsdylandylan.jsforthforth.jsjuliajulia.jsmumpsmumps.jsnginxnginx.jspegjspegjs.jsshellshell.jssievesieve.jsswiftswift.jstrofftroff.jsyacasyacas.jscypher	cypher.js	django.jseiffel	eiffel.jserlang	erlang.jsfactor	factor.jsgroovy	groovy.js	jinja2.jsmllike	mllike.jsmscgen	mscgen.jsoctave	octave.jspascal	pascal.jspuppet	puppet.js	python.jsscheme	scheme.jssmarty	smarty.jssparql	sparql.jsstylus	stylus.jsturtle	turtle.jswebidl	webidl.jsxquery	xquery.jsclojure
+clojure.jscrystal
+crystal.jsfortran
+fortran.jsgherkin
+gherkin.jshaskell
+haskell.jsmeta.jstextile
+textile.js
+tornado.jsverilog
+verilog.jsasteriskasterisk.jsmarkdownmodelicamodelica.jsntriplesntriples.jsprotobufprotobuf.jsttcn-cfgttcn-cfg.jsvbscriptvbscript.jsvelocityvelocity.js	brainfuckbrainfuck.js	htmlmixedhtmlmixed.js	smalltalksmalltalk.js
+asciiarmorasciiarmor.js
+commonlispcommonlisp.js
+dockerfiledockerfile.js
+handlebarshandlebars.js
+javascriptjavascript.js
+livescriptlivescript.js
+powershellpowershell.js
+propertiesproperties.js
+tiddlywikitiddlywiki.jstiddlywiki.cssmathematicamathematica.jsspreadsheetspreadsheet.jscoffeescriptcoffeescript.jshtmlembeddedhtmlembedded.jshaskell-literatehaskell-literate.jsyaml-frontmatteryaml-frontmatter.jsaddonclosetag.jsmatchtags.jscontinuelist.jsclosebrackets.jsmatchbrackets.jstrailingspace.jsfoldfoldcode.jsxml-fold.jsbrace-fold.jsfoldgutter.jsfoldgutter.cssindent-fold.jscomment-fold.jsmarkdown-fold.jshintcss-hint.jssql-hint.jsxml-hint.jshtml-hint.jsshow-hint.jsshow-hint.cssanyword-hint.jsjavascript-hint.jslintlint.jslint.csscss-lint.jshtml-lint.jsjson-lint.jsyaml-lint.jsjavascript-lint.jscoffeescript-lint.js	simple.js
+overlay.jsloadmode.jsmultiplex.jsmultiplex_test.jsterntern.jstern.css	worker.jswraphardwrap.jsmergemerge.js	merge.cssdialog
+dialog.cssscrollscrollpastend.jssimplescrollbars.jsannotatescrollbar.jssimplescrollbars.csssearch	search.jsjump-to-line.jssearchcursor.jsmatch-highlighter.jsmatchesonscrollbar.jsmatchesonscrollbar.csscomment
+comment.jscontinuecomment.jspanel.js	rulers.jsfullscreen.jsautorefresh.jsfullscreen.cssplaceholder.jsrunmode
+runmode.jscolorize.jsrunmode.node.jsrunmode-standalone.js	selectionactive-line.jsmark-selection.jsselection-pointer.jsthemembo.cssneo.cssidea.cssneat.cssseti.cssssms.cssttcn.cssyeti.css	night.css
+abcdef.css
+bespin.css
+cobalt.cssdracula.csseclipse.csselegant.cssisotope.csslucario.cssmonokai.cssxq-dark.csszenburn.css3024-day.cssambiance.cssicecoder.cssmaterial.cssmdn-like.cssmidnight.cssrubyblue.csstwilight.cssxq-light.csshopscotch.cssliquibyte.cssshadowfox.csssolarized.css3024-night.cssblackboard.csscolorforth.cssrailscasts.cssthe-matrix.cssbase16-dark.csserlang-dark.csslesser-dark.cssvibrant-ink.cssbase16-light.cssduotone-dark.cssgruvbox-dark.cssoceanic-next.csspanda-syntax.cssparaiso-dark.cssduotone-light.cssparaiso-light.csspastel-on-dark.cssambiance-mobile.csstomorrow-night-bright.csstomorrow-night-eighties.csskeymapvim.jsemacs.js
+sublime.jsrollup.config.js
+underscoreunderscore-min.jses6-promise
+promise.jspromise.min.jsgoogle-cajahtml-css-sanitizer-minified.jsfont-awesomefont-awesome.cssfont-awesome.min.cssFontAwesome.otffontawesome-webfont.eotfontawesome-webfont.svgfontawesome-webfont.ttffontawesome-webfont.wofffontawesome-webfont.woff2xterm.js-css	index.cssxterm.js-fitpreact-compattext-encodingencoding.jsbootstrap-tourbuildbootstrap-tour.min.jsbootstrap-tour.min.cssrequirejs-texttext.jsjquery-typeaheadjquery.typeahead.min.jsjquery.typeahead.min.cssrequirejs-pluginsjson.jsbundlersubdir	subsubdir.gitkeepempty.ipynbanother_subdirtest_bundler_api.pytest_bundler_tools.pytest_bundlerextension.pyzip_bundler.pytarball_bundler.pybundlerextensions.pyapi.yamltest_config_api.pytest_kernels_api.pykernelmanager.pycontentstest_fileio.pytest_manager.pytest_contents_api.pytest_largefilemanager.py	fileio.pycheckpoints.pyfilemanager.pyfilecheckpoints.pylargefilemanager.pysecuritytest_sessions_api.pytest_sessionmanager.pysessionmanager.pytest_nbconvert_api.pytest_kernelspecs_api.pyshutdown.pyapi_handlers.py	jstest.pytest_nbconvert_handlers.py404.html	edit.html	page.html	tree.html	view.html
+error.html
+login.htmllogout.htmlnotebook.htmlterminal.htmlbrowser-open.htmltransutils.pynotebookapp.pynbextensions.pyconfig_manager.pyserverextensions.pyoauthliboauth1rfc5849access_token.pyrequest_token.pysignature_only.pysignature.pyoauth2rfc6749clientsweb_application.pylegacy_application.pymobile_application.pybackend_application.pyservice_application.pyintrospect.pyrevocation.pyrefresh_token.pyclient_credentials.py&resource_owner_password_credentials.pyopenidconnect	hybrid.pydispatchers.pyuri_validate.pypygmentsd.pyj.pyr.pygo.pyml.pyapl.pyasm.pyboa.pycss.pyecl.pyelm.pyhdl.pyidl.pyjvm.pyncl.pynit.pynix.pyooc.pyphp.pyqvt.pyrdf.pyrnc.pysgf.pysmv.pysql.pytcl.pyx10.pyampl.pydsls.pyhaxe.pylisp.pymake.pymath.pypawn.pyperl.pypony.pyruby.pyrust.pyurbi.pyxorg.pyagile.pyc_cpp.pydylan.pyezhil.pyfelix.pyforth.pygraph.pyjulia.pymonte.pypraat.pyrebol.pyshell.pyslash.pystata.py	bibtex.py	c_like.py	chapel.py	csound.py	dalvik.py	dotnet.py	eiffel.py	erlang.py	factor.py	fantom.py	foxpro.py	iolang.py	markup.py	matlab.py	nimrod.py	oberon.py	pascal.py	prolog.py	snobol.py	unicon.py	whiley.py
+algebra.py
+ambient.py
+configs.py
+crystal.py
+fortran.py
+freefem.py
+haskell.py
+hexdump.py
+inferno.py
+modula2.py
+special.py
+theorem.py
+varnish.py
+webmisc.pybusiness.pycompiled.pyesoteric.pygraphics.pymodeling.pyparasail.pyroboconf.pyteraterm.pytextedit.pytextfmts.pyarchetype.pycapnproto.pyfloscript.pyobjective.pyscripting.pysmalltalk.pytemplates.pyautomation.pyfunctional.pyinstallers.pyjavascript.pytyposcript.pyint_fiction.py_cl_builtins.pyactionscript.pyverification.py_asy_builtins.py_lua_builtins.py_mql_builtins.py_php_builtins.py_vim_builtins.pysupercollider.pytrafficscript.py_stan_builtins.py_tsql_builtins.pyrobotframework.py_cocoa_builtins.py_lasso_builtins.py_stata_builtins.py_csound_builtins.py_scilab_builtins.pygrammar_notation.py_openedge_builtins.py_postgres_builtins.py_vbscript_builtins.py_sourcemod_builtins.pybw.pyvs.pyrrt.pyvim.pyabap.pytrac.pyalgol.pymanni.pytango.pyxcode.py	autumn.py	fruity.py	murphy.py	native.py	pastie.py
+arduino.py
+borland.py
+default.py
+monokai.py
+perldoc.pyalgol_nu.pycolorful.pyfriendly.pylovelace.pysolarized.pystata_dark.pystata_light.pyparaiso_dark.pyrainbow_dash.pyparaiso_light.py	filter.py	plugin.py
+cmdline.py
+formattersimg.pyirc.pyrtf.pysvg.py	bbcode.pyterminal256.pymodeline.pyregexopt.pysphinxext.pyunistring.pytestpathenv.py
+asserts.pycommands.py	ipykernelguigtkembed.pygtk3embed.pycommcomm.pypylabbackend_inline.py_asyncio.pytest_async.pytest_eventloop.pytest_zmq_shell.pytest_pickleutil.pytest_embed_kernel.pytest_message_spec.pytest_start_kernel.py	inprocessblocking.pylogo-32x32.pnglogo-64x64.png
+datapub.pycodeutil.pyzmqshell.pyheartbeat.pyeventloops.pykernelbase.pyparentpoller.py_eventloop_macos.pyhello.pyoverride.pytestimage.pngnotebook1.ipynbWidget_List.ipynbnotebook_jl.ipynbnotebook4_jpeg.ipynblatex-linked-image.ipynbjupyter_nbconvert_config.pynotebook3_with_errors.ipynbcontainerized_deployments.jpegmarkdown_display_priority.ipynbfake_exporters.pyexporter_entrypoint	eptest.pyeptest-0.1.dist-infotest_nbconvertapp.pytest_pandoc.pytest_ansi.pytest_strings.pytest_citation.pytest_metadata.pytest_highlight.pytest_datatypefilter.py
+strings.pycitation.pyhighlight.pyfilter_links.pydatatypefilter.pymarkdown_mistune.pywriterstest_debug.pytest_stdout.pyfiles.py	stdout.py	exporters	svg.ipynbrawtest.ipynbattachment.ipynbpngmetadata.ipynbprompt_numbers.ipynb	cheese.pytest_pdf.pytest_rst.pytest_html.pytest_export.pytest_python.pytest_script.pytest_slides.pytest_asciidoc.pytest_exporter.pytest_notebook.pytest_templateexporter.pypdf.pyrst.py	export.py	slides.pyasciidoc.pyexporter.pynotebook.pyexporter_locator.pytemplateexporter.pyfull.tpl	basic.tplmathjax.tplslides_reveal.tpllatex	null.tplxdisplay_priority.tplx	base.tplxreport.tplxarticle.tplxstyle_python.tplxstyle_ipython.tplxstyle_jupyter.tplxstyle_bw_python.tplxstyle_bw_ipython.tplxdocument_contents.tplxrst.tplnull.tpldisplay_priority.tpl
+python.tpl
+script.tplasciidoc.tplmarkdown.tplpreprocessors	SVG.ipynb
+python.pngUnicode.ipynbInterrupt.ipynbEmpty Cell.ipynbFactorials.ipynbHelloWorld.ipynbUnicodePy3.ipynbClear Output.ipynbInline Image.ipynbDisable Stdin.ipynbInterrupt-IPY6.ipynbJupyterWidgets.ipynbSkip Exceptions.ipynbupdate-display-id.ipynbSkip Exceptions-IPY6.ipynb$Skip Exceptions with Cell Tags.ipynb)Skip Exceptions with Cell Tags-IPY6.ipynbtest_execute.pytest_svg2pdf.pytest_sanitize.pytest_tagremove.pytest_clearoutput.pytest_regexremove.pyfake_kernelmanager.pytest_clearmetadata.pytest_csshtmlheader.pytest_extractoutput.pytest_coalescestreams.pytest_highlightmagics.py
+execute.py
+svg2pdf.pysanitize.pytagremove.pyclearoutput.pyregexremove.pyclearmetadata.pycsshtmlheader.pyextractoutput.pyconvertfigures.pycoalescestreams.pyhighlightmagics.pypostprocessorstest_serve.pyserve.pynbconvertapp.py	terminadobasic_test.py_staticuimodule.pymanagement.pyuimod_embed.js	traitlets_warnings.pytest_traitlets.pytest_traitlets_enum.pytest_bunch.pybunch.pygetargspec.pytest_loader.pytest_configurable.pyconfigurable.py
+defusedxmllxml.py	xmlrpc.py
+jsonschema	_suite.pytest_cli.pytest_types.pytest_format.pytest_exceptions.pytest_validators.pytest_jsonschema_test_suite.pydraft3.jsondraft4.jsondraft6.jsondraft7.json	_types.py
+_format.py
+benchmarksissue232.pyjson_schema_test_suite.py_reflect.py_validators.py_legacy_validators.py
+jupyter.py
+markupsafe
+_native.py_speedups.c_constants.py)_speedups.cpython-36m-x86_64-linux-gnu.so
+mistune.py
+ptyprocess_fork_pty.pyptyprocess.py
+pyrsistent_pbag.py_pmap.py_pset.py	_plist.py	_toolz.py
+_pclass.py
+_pdeque.py_helpers.py_precord.py_pvector.py_immutable.py_field_common.py_checked_types.py_transformations.py
+send2trashplat_gio.pyplat_osx.pyplat_win.pyplat_other.py
+setuptoolscli.exe	rotate.py	setopt.py
+develop.pyegg_info.pysaveopts.pybdist_egg.pydist_info.pypy36compat.pyupload_docs.pylauncher manifest.xmlgui.exemsvc.py	launch.py	monkey.py
+depends.py
+gui-32.exe
+gui-64.exescript.tmplbuild_meta.pylib2to3_ex.pynamespaces.pypy27compat.pypy33compat.pysite-patch.pyssl_support.pypackage_index.pyunicode_utils.pyscript (dev).tmplwindows_support.py_deprecation_warning.pyjupyter_core
+dotipythonnbextensionsmyext.js
+mocking.pytest_command.pytest_migrate.pydotipython_emptyshutil_which.py
+command.py
+migrate.pytroubleshoot.pycopy.pysubprocess.pyi
+queues.pyiconnection.pyi3urllib	queue.pyibuiltins.pyi2and3mock.pyi	freeze.pydownload.pyconfiguration.pypoll.pyasyncio
+message.py
+support.pytest_log.pytest_util.pyREADMEmultiprocessing_compatibility.py	genshi.pydom.pyetree.pyetree_lxml.pymain.pytest_display.pyerror.py	events.py	iptest.py
+prompts.pyqt.pyinteractiveshell.py
+display.py	ioloop.py
+process.pyautoreload.py
+request.pyresponse.pyconnection.py
+_common.pytest_nbpy.pynbpy.pytest_json.pyformattest.pynbexamples.pytest_nbbase.py	nbbase.py	nbjson.py	rwbase.pytest_convert.pyfr_FRLC_MESSAGESnbjs.ponbui.monbui.po	nbjs.jsonnotebook.monotebook.pobasekeyboard.jssecurity.jstree
+menubar.jspromises.jssavewidget.jstags.jsattachments.jsnotificationarea.js	kernel.jsserialize.js
+session.jsmain.min.jsmain.min.js.mapoverride.cssMainMiscLatinMarksSize1Size2Size3Size4Size5ArrowsNormalScriptShapesFrakturSymbolsVariants	Alphabets	Monospace	Operators	SansSeriffontdata.jsDoubleStruckBoldItalicRegular
+BoldItalicMain.jsfontdata-extra.jsautoloadms.js	mglyph.js	mtable.js
+maction.jsmenclose.jsmultiline.jsmmultiscripts.jsannotation-xml.js	config.jsjax.jsSTIX-WebTeX	mhchem.jsunitstime.jsother.jsspeed.js	energy.js	length.js	memory.js	volume.js	weight.jstemperature.jssymbolslatin-rest.jsgreek-small.jsmath_angles.jsmath_arrows.jsmath_digits.jsother_stars.jsmath_symbols.jsgreek-capital.jsgreek-scripts.jsgreek-symbols.jsmath_geometry.jsmath_harpoons.jshebrew_letters.jsmath_characters.jsmath_delimiters.jsmath_whitespace.jslatin-lower-normal.jslatin-upper-normal.jsmath_non_characters.jsgreek-mathfonts-bold.jslatin-lower-phonetic.jslatin-mathfonts-bold.jsgreek-mathfonts-italic.jslatin-mathfonts-italic.jslatin-mathfonts-script.jslatin-mathfonts-fraktur.jslatin-lower-double-accent.jslatin-lower-single-accent.jslatin-mathfonts-monospace.jslatin-upper-double-accent.jslatin-upper-single-accent.jslatin-mathfonts-sans-serif.jslatin-mathfonts-bold-script.jslatin-mathfonts-bold-fraktur.js latin-mathfonts-double-struck.js"greek-mathfonts-sans-serif-bold.js"latin-mathfonts-sans-serif-bold.js$latin-mathfonts-sans-serif-italic.js	functions
+algebra.jselementary.jshyperbolic.jstrigonometry.jsSafe.jsHTML-CSSenesTeX.js	MathML.jsHTML-CSS.jsMathMenu.jsHelpDialog.jsFontWarnings.jsmain.jsutils.jsselection.jscodemirror.jseditfontsindex.jscsstest_file.txtnotebookserviceskernelspecshandlers.pyauthorization.pyparameters.pycore	endpointspre_configured.py	tokens.pygrant_typesimplicit.pyauthorization_code.pyrequest_validator.pyresource.pysas.pyigor.pyother.py_mapping.pyhelp.pycerts.pystatus_codes.pytest_kernel.py	socket.pyconstants.pyipkernel.py	nbconverttest_version.py	pandoc.pydebug.pynotebook2.ipynb	python.pymarkdown.pyskeletontest_latex.pylatex.py
+README.txtutil.py__init__.pyi	compat.pyexceptions.pyprofile_defaultipython_config.pyipython_kernel_config.pyipython_console_config.pyipython_notebook_config.pyipython_nbconvert_config.pyutilsextern
+version.py
+appdirs.py	client.pyvt100.py	server.pymenus.pycache.pytoken.py
+context.py
+dialogs.pydummy.py	search.pyvalidation.pybase.pypygments.pyauto_suggest.pyeasy_install.pytestsjs__main__.pycore.pyutils.py	parser.pydecorator.pyexposition.py__init__.pyLICENSE.rstnot-zip-safe
+COPYING.mdzip-safePKG-INFOSOURCES.txtrequires.txtinstalled-files.txtdependency_links.txtentrypoints.pyjupyter_clienttest_client.pysignalkernel.pytest_adapter.pytest_session.pytest_kernelapp.pytest_public_api.pytest_localinterfaces.pytest_multikernelmanager.pyioloopblocking	runapp.py
+session.pywin_interrupt.pypickleshare.pyprompt_toolkittypeahead.pyposix_pipe.pywin32_pipe.pyposix_utils.pyvt100_parser.pyansi_escape_sequences.pylayout	layout.py
+margins.pycontrols.pydimension.pycontainers.pyprocessors.pymouse_handlers.py	conemu.pywindows10.pycolor_depth.pynamed_colors.pystyle_transformation.pytelnetprotocol.py
+completers	system.pyregular_languagesregex_parser.pyapp.pykeys.pywidgetstoolbars.py	buffer.py	clipboardin_memory.pypyperclip.pyevent.pycoroutine.pyasyncio_posix.pyasyncio_win32.pyasync_generator.py	shortcuts	prompt.pyprogress_bar
+completionword_completer.pyfuzzy_completer.pyapplicationrun_in_terminal.pydocument.pykey_bindingbindingsvi.pycpr.pyfocus.pymouse.py	scroll.pynamed_commands.pyopen_in_editor.pypage_navigation.pydigraphs.pyvi_state.pyemacs_state.pykey_bindings.pykey_processor.pyrenderer.pyselection.pyformatted_textwin32_types.pymouse_events.pypatch_stdout.pysockshandler.pyipython_genutilsnb_conda_kernels	_utils.jstest_notebook_basic.jstest_notebook_env_r.jstest_notebook_env_py.jstest_notebook_root_py.jstest_notebook_default_r.jstest_notebook_default_py.jstest_runner.pydiscovery.pypandocfilters.pyprometheus_clientbridgegraphite.pytwisted_exposition.py	values.py
+samples.pyopenmetricsregistry.pymmap_dict.pygc_collector.pymetrics_core.pymultiprocess.pycontext_managers.pyprocess_collector.pyplatform_collector.pyrequests_oauthliboauth1_auth.pyoauth2_auth.pycompliance_fixesslack.pyweibo.py	douban.py	fitbit.pyfacebook.pylinkedin.pymailchimp.pyplentymarkets.pyoauth1_session.pyoauth2_session.pyidna-2.8.dist-infosix-1.12.0.dist-infoipykernel_launcher.pyparso-0.4.0.dist-info_pyrsistent_version.pyattrs-19.1.0.dist-infotweepy-3.7.0.dist-infoJinja2-2.10.1.dist-infoPySocks-1.7.0.dist-infochardet-3.0.4.dist-infoipython-7.5.0.dist-infomistune-0.8.4.dist-infopexpect-4.7.0.dist-infotornado-6.0.2.dist-infoPygments-2.4.2.dist-infoAUTHORSnbformat-4.4.0.dist-infonotebook-5.7.8.dist-infooauthlib-3.0.1.dist-infotestpath-0.4.2.dist-infourllib3-1.25.3.dist-infodecorator-4.4.0.dist-infopbr.jsonipykernel-5.1.1.dist-infonbconvert-5.5.0.dist-infopip-19.1.1-py3.6.egg-inforequests-2.22.0.dist-infosix-1.12.0-py3.6.egg-infotraitlets-4.3.2.dist-infoMarkupSafe-1.1.1.dist-infojedi-0.13.3-py3.6.egg-infobleach-3.1.0-py3.6.egg-infopyzmq-18.0.0-py3.6.egg-infowheel-0.33.4-py3.6.egg-infojupyter_core-4.4.0.dist-infopyrsistent-0.14.11.dist-infoLICENCE.mitwcwidth-0.1.7-py3.6.egg-infobackcall-0.1.0-py3.6.egg-infopandocfilters-1.4.2.dist-infoentrypoints-0.3-py3.6.egg-infojupyter_client-5.2.4.dist-infoprompt_toolkit-2.0.9.dist-infoAUTHORS.rstpython_dotenv-0.10.3.dist-infoterminado-0.8.2-py3.6.egg-infoSend2Trash-1.5.0-py3.6.egg-infodefusedxml-0.6.0-py2.7.egg-infojsonschema-3.0.1-py3.6.egg-infoptyprocess-0.6.0-py3.6.egg-infopython_dateutil-2.8.0.dist-info nb_conda_kernels-2.2.2.dist-info pickleshare-0.7.5-py3.6.egg-info setuptools-41.0.1-py3.6.egg-info!certifi-2019.03.09-py3.6.egg-info!requests_oauthlib-1.2.0.dist-info!webencodings-0.5.1-py3.6.egg-info%ipython_genutils-0.2.0-py3.6.egg-info&prometheus_client-0.6.0-py3.6.egg-info(pvectorc.cpython-36m-x86_64-linux-gnu.so_io.py
+_locale.py_ast.py_functools.py_imp.py
+_codecs.py_ctypes_test.py_lzma.pypvectorc.py_md5.py	_heapq.py	_crypt.py_testbuffer.py
+marshal.pyfaulthandler.py_weakref.py_multibytecodec.pybinascii.py
+_lsprof.pyzipimport.py	syslog.py_stat.py_ssl.pyossaudiodev.py_codecs_kr.py_testmultiphase.pyfcntl.py_testcapi.pymmap.py_codecs_cn.py
+_sha512.pygrp.pycmath.py_curses_panel.pyunicodedata.py
+termios.pyspwd.py_sha1.py
+_blake2.pybuiltins.py_sre.py
+_bisect.pygc.py
+_struct.py_json.py_codecs_hk.py
+audioop.py_sha3.pytime.py_multiprocessing.py_elementtree.pyerrno.pyxxsubtype.py
+_socket.pynis.py_hashlib.py
+_random.py
+pyexpat.py
+_ctypes.py_bz2.py_tkinter.pyitertools.py_operator.py_codecs_tw.pyarray.py
+_curses.py_sqlite3.py_symtable.py	atexit.py_codecs_jp.py_testimportmultiple.pyreadline.py
+_string.py_datetime.py
+_signal.py_codecs_iso2022.py
+_sha256.py_tracemalloc.pypwd.py
+_opcode.py_decimal.py
+_thread.py
+_pickle.py_posixsubprocess.pyspeedups.py_speedups.pyxxlimited.pyzlib.pycython_runtime.py_cython_0_29_5.py
+_device.py_proxy_steerable.py                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        

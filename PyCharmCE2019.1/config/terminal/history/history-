@@ -1,0 +1,1000 @@
+gsettings set org.gnome.settings-daemon.peripherals.mouse locate-pointer true
+gsettings set org.gnome.settings-daemon.peripherals.mouse locate-pointer false
+apt-get install dconf-editor -y
+sudo apt-get install dconf-editor -y
+docker run -d --name serving_base tensorflow/serving
+docker images
+docker run -d --name serving_base tensorflow/serving:nightly
+docker run -d --name serving_base_nlp tensorflow/serving:nightly
+docker ps
+cd pel-nlp/
+ll
+cd models/
+ll
+cd 0/
+pwd
+docker cp /home/mono/projects/python/pel-nlp/models/0 serving_base_nlp:/models/lstm/0
+docker ps
+docker exec -i -t serving_base_nlp /bin/bash
+cd projects/python/
+git clone git@github.com:praekeltfoundation/pel-nlp.git
+conda deactivate
+conda activate tensor
+conda deactivate
+conda activate 
+anaconda-navigator
+docker cp /home/mono/projects/python/pel-nlp/models/0 serving_base_nlp:/models/lstm/0
+git checkout -b gpe-2163
+vim .gitignore 
+git status
+git add .
+git status
+git add .
+git commit -m 'gitignore + export start'
+gir checkout master
+git checkout master
+git pull
+git checkout gpe-2163 
+git merge master
+ll
+cd checkpoints/
+ll
+export CUDA_VISIBLE_DEVICES=-1
+cd ..
+ll
+python export_model.py 
+ll
+cd models/
+ll
+cd 0/
+ll
+cd variables/
+ll
+cd ..
+git status
+git add .
+git status
+git commit -m 'working export'
+git push
+git status
+git add .
+git commit -m 'lstm class'
+git push
+git push --set-upstream origin gpe-2163
+cd /opt/
+ll
+echo $USER
+sudo chown -R $USER:$USER /opt/zoom/
+ll
+sudo chown -R $USER:$USER /opt/Zotero/
+ll
+cd
+conda activate 
+anaconda-navigator
+ssh analytics1
+cd projects/python/
+ll
+git clone git@github.com:mdasadul/MNIST.git
+git checkout -b devel
+conda activate tensor
+export CUDA_VISIBLE_DEVICES="-1"
+ll
+python tensorflow_rnn_mnist.py 
+cd projects/python/
+ll
+cd MNIST/
+ll
+conda activate 
+anaconda-navigator
+conda activate tensor
+jupyter lab
+cd
+ll
+cd projects/
+ll
+cd python/
+ll
+cd MNIST/
+ll
+cd savedmodel/
+ll
+cd 2/
+ll
+whereis tpp10
+docker start serving_base 
+docker ps
+cd projects/python/MNIST/
+ll
+cd savedmodel/
+ll
+pwd
+docker exec -i -t serving_base /bin/bash
+cd /home/mono/projects/python/MNIST/savedmodel
+ll
+docker cp /home/mono/projects/python/MNIST/savedmodel/2/ serving_base:/models/mnist/2
+cd /tmp/
+ll
+cd data/
+ll
+docker ps
+conda activate tensor
+jupyter lab
+cd ../..
+jupyter lab
+cd
+conda activate 
+anaconda-navigator
+ssh analytics1
+export CUDA_VISIBLE_DEVICES="-1"
+python grpc_client.py
+pip install tensorflow-serving-api
+python grpc_client.py
+docker ps
+cd projects/python/tf_serving_flask_app/
+ll
+docker-compose -f docker-compose.yaml down
+docker-compose -f docker-compose.yaml up
+conda activate tensor
+jupyter lab
+docker images
+git status
+git add .
+git commit -m 'tensorflow mnist examplw'
+git status
+cd data/
+ll
+sudo apt-get upgrade
+sudo apt-get update
+sudo apt-get upgrade
+git pull
+git checkout -b qa_notebooks
+cd sql/
+ll
+workon pypel
+pip freeze
+pip freeze >> requirements.txt
+ll
+git status
+git add .
+git commit -m 'QA notebook'
+git push
+git push --set-upstream origin qa_notebooks
+cd projects/python/
+mkdir cars
+cd cars/
+git clone git@github.com:neokt/car-damage-detective.git
+conda activate 
+jupyter lab
+cd ..
+jupyter lab
+cd ../..
+git status
+git add .
+git commit -m 'population table'
+git push
+git checkout -b gpe-1788-parent-table
+git checkout master 
+git checkout -b gpe-1788-final-table
+pip install sshuttle
+vim .bashrc
+source .bashrc
+tunnel
+sudo apt-get install sshuttle
+tunnel
+conda activate 
+jupyter lab
+docker ps
+docker images
+ssh analytics1
+sudo apt-get update
+cd projects/python/pel-etl/
+cd ..
+ll
+cd ..
+ll
+cd python/pel-etl/
+./home/mono/projects/pullall.sh 
+bash /home/mono/projects/pullall.sh 
+git branch
+git checkout installing_packages_on_jh
+cd dockerfiles/
+ll
+docker build --no-cache=true --network=host -f Dockerfile.Python -t python_newpkgs .
+docker logout 
+docker login
+docker build --no-cache=true --network=host -f Dockerfile.Python -t python_newpkgs .
+ssh analytics1
+cd projects/
+ll
+vim pullall.sh 
+git status
+git add .
+git commit -m 'more aliasing'
+git push
+git status
+git add .
+git commit -m 'IdentityRegistrationSubscription description'
+git push
+git stash
+git status
+git add .
+git commit -m 'population table'
+git push
+git pull
+bash /home/mono/projects/pullall.sh 
+git branch
+bash /home/mono/projects/pullall.sh 
+git branch
+git fetch
+bash /home/mono/projects/pullall.sh 
+git branch
+git checkout add-group-batch-start-script
+git status
+git add .
+git commit -m 'added functions to class'
+git push
+git status
+git add  pyPel/rapidpro.py
+git status
+git commit -m 'deleted batch_split.py'
+git push
+git status
+git add scripts/rp_contacts_batches.py
+git status
+git commit -m 'adding rp_contacts_batches.py to /scripts'
+git commit
+git push
+git add .
+git commit -m 'add type'
+git push
+cd projects/python/
+ll
+cd ..
+ll
+vim pullall.sh 
+top
+cd
+sudo apt-get update
+sudo apt update
+sudo apt-get upgrade
+systemctl daemon-reload
+sudo apt -y install r-base
+sudo apt -y install r-base-core
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
+sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu bionic-cran35/'
+sudo apt update
+sudo apt install r-base
+conda activate 
+jupyter lab
+cd projects/python/nlp_prk/
+ll
+cd projects/python/gates-investigation-1/
+git branch
+cd .ssh/
+ll
+vim config 
+cd
+ssh analytics2
+cd .ssh/
+vim config 
+cd projects/
+ll
+vim pullall.sh 
+cd checkpoints/
+ll
+cd ..
+git branch
+git status
+ll
+vim .gitignore 
+git status
+git add .
+git commit -m 'script to test using model from checkpoint'
+git push
+git checkout master
+git pull
+git checkout gpe-2163
+git merge master
+git checkout master
+git pull
+git checkout gpe-2163
+git merge master
+git checkout master
+git pull
+git checkout gpe-2163
+git pull
+git merge master
+ssh monika@10.1.1.2015
+ssh monika@10.1.1.215
+tunnel
+ssh monika@10.1.1.215
+conda activate 
+jupyter lab
+conda activate 
+anaconda-navigator
+sudo apt-get remove gnome-control-center
+sudo apt autoremove
+sudo apt-get install gnome-control-center
+sudo apt-get remove unity-control-center
+tunnel
+ssh tableau
+cd projects/
+ll
+cd python/wellspring/
+ll
+cd code/
+ll
+cd
+conda activate 
+jupyter lab
+cd projects/python/
+git clone https://github.com/amueller/word_cloud.git
+conda activate wellspring 
+cd word_cloud/
+pip install .
+conda deactivate
+conda create -n model python=3.5.2 tensorflow==1.12.0
+conda activate model
+cd ..
+cd pel-nlp/
+ll
+pip install requirements.txt
+conda install tensorflow=1.12
+which python
+pip install ggplot
+ipython
+conda activate 
+jupyter lab
+docker images
+docker rmi $(docker images --filter "dangling=true" -q --no-trunc)
+docker images
+docker ps
+docker run -d --name serving_base tensorflow/serving:nightly
+docker ps
+docker images
+docker exec -i -t serving_base /bin/bash
+docker start -it serving_base 
+docker start -i serving_base 
+docker cp /home/mono/projects/python/pel-nlp/savedmodel/1 serving_base:/models/lstm/1
+cd projects/python/pel-nlp/
+ll
+cd savedmodel/1/
+pwd
+docker images
+docker ps
+docker exec -i -t serving_base /bin/bash
+docker ps
+docker stop 7750543942d2
+docker stop serving_base
+cd
+conda activate
+anaconda-navigator
+cd projects/python/
+git clone git@github.com:ageron/handson-ml.git
+cd handson-ml/
+ll
+vim requirements.txt 
+git branch
+git checkout -b devel
+conda activate
+jupyter lab
+sudo apt-get update
+conda create -n mlbook python=3.5 anaconda
+conda create -n mlbook python=3.5 tensorflow
+conda activate mlbook
+cd handson-ml/
+pip install --upgrade pip
+pip install --upgrade -r requirements.txt
+conda install -c conda-forge jupyter_contrib_nbextensions
+conda install ipykernel
+ipython kernel install --user --name=mlbook
+sudo apt install ipython
+ipython kernel install --user --name=mlbook
+conda install matplotlib
+tree
+docker ps --all
+cd tensorflow_serving/apis/
+pwd
+cd ..
+git status
+tree
+snap info treesnap info tree
+sudo snap install tree
+cd projects/python/pel-nlp/
+tree
+docker ps --all
+docker ps
+docker start -i serving_base
+exiyt
+docker start serving_base
+conda activate
+anaconda-navigator
+cd ..
+git clone https://github.com/tensorflow/tensorflow.git
+git clone https://github.com/tensorflow/serving.git
+cd tensorflow/
+tree
+ll
+cd tensorflow/
+ll
+cd core/
+pwd
+git clone https://github.com/tensorflow/serving.gitcd
+cd ../../..
+cd pel-nlp/
+pwd
+cd ..
+cd serving/tensorflow_serving/apis/internal/
+ll
+cd ..
+ll
+pwd
+cd ../..
+git clone --recursive https://github.com/tensorflow/tensorflow.git
+ll
+cd ..
+cd pel-nlp/
+cd tensorflow_serving/
+cd ..
+tree
+docker network inspect bridge | grep IPv4Address
+anaconda-navigator
+docker exec -i -t serving_base /bin/bash
+docker stop serving_base 
+docker cp /home/mono/projects/python/pel-nlp/savedmodel serving_base:/models
+docker ps
+curl http://172.17.0.2:9000/models/lstm
+docker inspect serving_base
+docker run -p 8500:8500 -p 8501:8501 --name tfserving_lstm -e MODEL_NAME=lstm -t tensorflow/serving
+docker run -p 8500:8500 -p 8501:8501 --name tfserving_lstm -e MODEL_NAME=lstm -t tensorflow/serving:nightly
+curl http://localhost:8501/models/lstm
+curl http://172.17.0.2:8501/models/lstm
+docker start -i serving_base
+docker start serving_base
+docker exec -i -t serving_base /bin/bash
+docker cp /home/mono/projects/python/pel-nlp/savedmodel/1 serving_base:/models/lstm/1
+docker ps
+docker exec -i -t serving_base /bin/bash
+docker ps
+docker stop serving_base
+docker ps
+docker stop serving_base
+docker ps
+docker start serving_base
+curl http://172.17.0.2:9000/models/gan
+curl http://172.17.0.2:9000/models/gan --output temp.txt
+ll
+vim temp.txt 
+curl http://172.17.0.2:9000/models/gan/1
+docker exec -i -t serving_base /bin/bash
+docker stop serving_base
+docker ps
+docker images
+docker run -p 8500:8500 -p 8501:8501 --name tfserving_gan --mount type=bind, source=/home/mono/projects/python/tf_serving_example/gan-export, target=/models/gan -e MODEL_NAME=gan -t tensorflow/serving:nightly
+docker run -p 8500:8500 -p 8501:8501 --name tfserving_gan --mount type=bind,source=/home/mono/projects/python/tf_serving_example/gan-export,target=/models/gan -e MODEL_NAME=gan -t tensorflow/serving:nightly
+docker run -p 8500:8500 -p 8501:8501 --name tfserving_lstm --mount type=bind,source=/home/mono/projects/python/pel-nlp/savedmodel,target=/models/lstm -e MODEL_NAME=lstm -t tensorflow/serving:nightly
+docker ps --all
+docker rm ed877bbc5f89
+docker ps --all
+docker run -p 8500:8500 -p 8501:8501 --name tfserving_lstm --mount type=bind,source=/home/mono/projects/python/pel-nlp/savedmodel,target=/models/lstm -e MODEL_NAME=lstm -t tensorflow/serving:nightly
+docker exec -i -t serving_base /bin/bash
+docker stop serving_base
+docker -i start serving_base -e MODEL_NAME=gan
+docker start -i serving_base -e MODEL_NAME=gan
+docker start -i serving_base
+curl http://localhost:8501/gan/1
+curl http://localhost:8501/gan
+curl http://localhost:8501
+curl http://localhost:8501/v1
+docker ps
+docker stop tfserving_gan
+docker stop tfserving_lstm
+docker start serving_base
+docker exec -i -t serving_base /bin/bash
+python grpc_client.py 
+ll
+cd savedmodel/
+pwd
+cd ..
+python grpc_client.py
+conda deactivate
+conda activate model
+python grpc_client.py
+git status
+git add .
+git commit -m 'working grpc client'
+git push
+python grpc_client.py --question 'My stomach feel pain on the bottom when the weather is cold, I would like to know why'
+python grpc_client.py 
+git status
+vim .gitignore
+git status
+vim .gitignore
+git status
+git add .
+git commit -m 'clean up (new folders)'
+git push
+git status
+git checkout master 
+git pull
+git branch
+bash ../../pullall.sh 
+git branch
+git pull
+git branch
+git checkout charles-testing-branch
+git checkout master 
+git checkout gpe-2163 
+git merge master
+conda activate app
+pip install -r requirements.txt
+conda activate
+anaconda-navigator
+cd projects/py
+cd projects/python/
+ll
+git clone git@github.com:praekeltfoundation/tf_serving_app.git
+git status
+conda deactivate
+conda activate app
+conda deactivate
+conda activate model
+ll
+pip install -r requirements.txt
+python grpc_client.py --question 'My stomach feel pain on the bottom when the weather is cold, I would like to know why'
+cd ../lstm_model/
+python grpc_client.py --question 'My stomach feel pain on the bottom when the weather is cold, I would like to know why'
+cd ../flask_app/
+cd ..
+git log --oneline
+git checkout f077b09
+git status
+git add .
+git commit -m 'small mess'
+git checkout f077b09
+git status
+git branch
+git checkout master 
+git checkout gpe-2163 
+git revert HEAD~1..HEAD
+git revert HEAD~2..HEAD
+git status
+git revert HEAD~2
+git revert HEAD~1
+git status
+git revert HEAD~1
+git revert HEAD~3
+git revert HEAD~4
+git status
+python grpc_client.py --question 'My stomach feel pain on the bottom when the weather is cold, I would like to know why'
+git status
+git add .
+git commit -m 'late evening git mistakes'
+git push
+git checkout master 
+git pull
+docker run -p 8500:8500 -p 8501:8501 --name tfserving_lstm --mount type=bind,source=/home/mono/projects/python/pel-nlp/savedmodel,target=/models/lstm -e MODEL_NAME=lstm -t tensorflow/serving:nightly
+docker run -p 8500:8500 -p 8501:8501 --name tfserving_lstm --mount type=bind,source=/home/mono/projects/python/pel-nlp/lstm_model/savedmodel,target=/models/lstm -e MODEL_NAME=lstm -t tensorflow/serving:nightly
+docker ps
+docker rm tfserving_lstm
+docker run -p 8500:8500 -p 8501:8501 --name tfserving_lstm --mount type=bind,source=/home/mono/projects/python/pel-nlp/lstm_model/savedmodel,target=/models/lstm -e MODEL_NAME=lstm -t tensorflow/serving:nightly
+conda activate
+anaconda-navigator
+python grpc_client.py --question 'My stomach feel pain on the bottom when the weather is cold, I would like to know why'
+conda deactivate
+conda activate tensor
+python grpc_client.py --question 'My stomach feel pain on the bottom when the weather is cold, I would like to know why'
+python grpc_client.py --question 'When Does The Baby Turn'
+python grpc_client.py --question 'If you do breastfeeding and you have HIV it is possible for the baby not have it'
+python grpc_client.py --question 'When Does The Baby Turn'
+python grpc_client.py --question 'My stomach feel pain on the bottom when the weather is cold, I would like to know why'
+docker run -p 8500:8500 -p 8501:8501 --name tfserving_lstm --mount type=bind,source=/home/mono/projects/python/pel-nlp/savedmodel,target=/models/lstm -e MODEL_NAME=lstm -t tensorflow/serving:nightly
+docker rm tfserving_lstm
+docker run -p 8500:8500 -p 8501:8501 --name tfserving_lstm --mount type=bind,source=/home/mono/projects/python/pel-nlp/savedmodel,target=/models/lstm -e MODEL_NAME=lstm -t tensorflow/serving:nightly
+docker rm tfserving_lstm
+docker run -p 8500:8500 -p 8501:8501 --name tfserving_lstm --mount type=bind,source=/home/mono/projects/python/pel-nlp/savedmodel,target=/models/lstm -e MODEL_NAME=lstm -t tensorflow/serving:nightly
+docker rm tfserving_lstm
+docker ps
+docker stop
+docker stop serving_base
+docker ps
+docker stop serving_base
+netstat -tunlep | grep LISTEN | awk '{print $4}'
+sudo apt install net-tools
+netstat -tunlep | grep LISTEN | awk '{print $4}'
+sudo fuser 8500/tcp
+sudo fuser 8501/tcp
+docker ps
+docker stop serving_base
+docker ps
+docker stop tfserving_lstm
+docker ps
+docker stop serving_base
+docker run -p 8500:8500 -p 8501:8501 --name tfserving_lstm --mount type=bind,source=/home/mono/projects/python/pel-nlp/lstm_model/savedmodel,target=/models/lstm -e MODEL_NAME=lstm -t tensorflow/serving:nightly
+docker stop tfserving_lstm
+tunnel
+docker run -p 8500:8500 -p 8501:8501 --name tfserving_lstm --mount type=bind,source=/home/mono/projects/python/pel-nlp/savedmodel,target=/models/lstm -e MODEL_NAME=lstm -t tensorflow/serving:nightly
+docker ps
+docker rm tfserving_lstm
+docker stop tfserving_lstm
+docker rm tfserving_lstm
+docker start serving_base
+docker exec -i -t serving_base /bin/bash
+docker start serving_base
+docker exec -i -t serving_base /bin/bash
+docker start serving_base
+docker exec -i -t serving_base /bin/bash
+docker start serving_base
+docker exec -i -t serving_base /bin/bash
+cd projects/python/pel-nlp/
+conda activate tensor
+python grpc_client.py --question 'My stomach feel pain on the bottom when the weather is cold, I would like to know why'
+docker os
+docker ps
+docker start serving_base
+docker exec -i -t serving_base /bin/bash
+cd projects/python/pel-nlp/
+conda activate tensor
+python grpc_client.py --question 'My stomach feel pain on the bottom when the weather is cold, I would like to know why'
+clear
+ll
+python grpc_client.py --question 'My stomach feel pain on the bottom when the weather is cold, I would like to know why'
+python grpc_client.py --question 'Good day  i feel like my womb is opening as if i have period pains . what maybe the course ?'
+python grpc_client.py --question 'I had a baby boy.'
+git status
+vim .gitignore 
+git status
+git add .
+git commit -m 'first commit '
+git push
+bash ../../pullall.sh 
+git status
+git pull
+bash ../../pullall.sh 
+docker rm tfserving_lstm
+docker ps
+docker start serving_base
+docker ps
+docker exec -i -t serving_base /bin/bash
+docker stop tfserving_lstm
+docker stop serving_base 
+tunnel
+cd projects/python/pyPel/
+git branch
+git status
+cd ..
+cd pel-etl/
+git branch
+git status
+git checkout master 
+git pull
+git branch
+bash ../../pullall.sh 
+git branch
+git checkout gpe-1790-wa_churn_dag
+ssh tableau
+ll
+cd ../pyPel/
+ll
+git branch
+cd projects/python/pyPel/
+git branch
+git branch -d 
+git branch -d name_change
+git branch -d test
+git branch -d gpe1144
+git branch -d gpe1799
+git branch
+git branch -d gpe668_rewrite
+git checkout gpe-1788-parent-table
+git checkout gpe-1798-upload_samples
+git checkout master
+git pull
+git log
+git checkout gpe-1788-final-table
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get update
+sudo apt-get install hidpi-daemon
+git status
+git add .
+git commit -am 'cosmetic changes'
+git push
+sudo apt-get update
+sudo apt-get upgrade
+cd projects/
+ll
+vim pullall.sh 
+snap list
+sudo snap refresh --list
+ssh tableau
+ssh analytics2
+ssh analytics1
+ll
+cd pC
+cd pCloudDrive/Monika/DataCamp/
+ll
+cd SQLAlchemy/
+ll
+vim ch1_code.py
+vim ch2_code.py
+vim ch3_code.py
+vim ch4_code.py
+ll
+cd pCloudDrive/Monika/books/sci-fi/
+ll
+mv '1. A Game of Thrones.epub' A_Game_of_Thrones.epub
+ll
+ebook-convert A_Game_of_Thrones.epub A_Game_of_Thrones.mobi
+docker start serving_base
+docker ps
+docker exec -i -t serving_base /bin/bash
+conda activate tensor
+cd projects/python/pel-nlp/
+ll
+python grpc_client.py 
+clear
+python grpc_client.py --question "will me child ever stop eating?"
+python grpc_client.py --question "my baby is crying all nite. please help!"
+python grpc_client.py 
+python grpc_client.py --question "how long must i breastfeed?"
+python grpc_client.py --question "can i eat bluecheese"
+sudo apt-get update
+sudo apt-get upgrade
+reboot
+bluetoothctl
+rfkill list
+sudo systemctl status bluetooth.service
+sudo systemctl restart bluetooth.service
+sudo systemctl status bluetooth.service
+bluetoothctl paired-devices
+bluetoothctl connect 20:73:00:07:01:18
+bluetoothctl info 20:73:00:07:01:18
+bluetoothctl show
+sudo systemctl restart bluetooth.service
+sudo systemctl status bluetooth.service
+bluetoothctl paired-devices
+sudo systemctl status bluetooth.service
+bluetoothctl paired-devices
+sudo systemctl status bluetooth.service
+bluetoothctl paired-devices
+sudo systemctl status bluetooth.service
+bluetoothctl paired-devices
+git status
+git add .
+git commit -am 'tensor +well'
+git push
+git add .
+git commit -am 'tables QA'
+git push
+bluetoothctl 
+sudo systemctl status bluetooth.service
+ssh analytics1
+bluetoothctl paired-devices
+bluetoothctl show
+bluetoothctl 
+echo $NLTK_DATA
+ll
+export NLTK_DATA=~/projects/data/
+ll
+echo $NLTK_DATA
+conda activate wellspring 
+pip install -U textblob
+python -m textblob.download_corpora
+pip uninstall textblob
+conda install -c https://conda.anaconda.org/sloria textblob
+pip install -U textblob
+pip install tweet-preprocessor
+cd projects/data/
+ll
+mkdir nltk_data
+export NLTK_DATA=~/projects/data/nltk_data
+echo $NLTK_DATA
+cd
+vim .bashrc 
+source .bashrc 
+echo $NLTK_DATA
+git checkout -b sentiment
+conda activate 
+jupyter lab
+conda activate 
+anaconda-navigator
+cd projects/python/
+git clone git@github.com:pinsleepe/twitter-bots.git
+conda activate 
+anaconda-navigator
+vim .gitignore
+vim .env
+conda activate twitter
+pip install tweepy
+pip install python-dotenv
+anaconda-navigator
+conda activate 
+anaconda-navigator
+exit
+pip install pyspellchecker
+pip install unidecode
+pip install confusable_homoglyphs
+pip install homoglyphs
+pip uninstall confusable_homoglyphs
+pip uninstall unidecode
+ll
+pip install confusable_homoglyphs[cli]
+confusable_homoglyphs update
+vim ex.py
+cd projects/python/notes_python/bots/
+ll
+conda install ipykernelconda install ipykernel
+conda install ipykernel
+which python
+conda activate 
+jupyter lab
+conda activate
+anaconda-navigator
+git status
+git commit -ma 'delete primary key'
+git push
+git add -all
+git add --all
+git commit -ma 'delete primary key'
+git commit -am 'delete primary key'
+git push
+git status
+git add --all
+git commit -am 'active users orm test'
+git push
+git add --all
+git commit -am 'active users tablename'
+git push
+git add --all
+git commit -am 'active users PK'
+git push
+git add --all
+git commit -am 'adding sequence PK''
+git commit -am 'adding sequence PK'
+git push
+git add --all
+git commit -am 'revert this PK for no'
+git push
+git add --all
+git commit -am 'new model for subscriptions_optouts_event_table'
+git push
+git add --all
+git commit -am 'commenting out for testing'
+git push
+git add --all
+git commit -am 'new models for tables'
+git push
+git add --all
+git commit -am 'table name for latest_registration_information'
+git push
+curl --remote-name https://prerelease.keybase.io/keybase_amd64.deb
+sudo dpkg -i keybase_amd64.deb
+apt-get -f install 
+sudo apt-get -f install 
+sudo dpkg -i keybase_amd64.deb
+run_keybase
+cd Downloads/
+ll
+sudo mv postgresql-42.2.5.jar /opt/workbench/
+ll
+cd
+cd .ssh/
+ll
+pwd
+cd
+cd /opt/workbench/
+ll
+sudo sqlworkbench.sh
+sudo bash sqlworkbench.sh
+ll
+sudo bash sqlworkbench.sh
+sudo apt-get upgrade
+conda activate
+jupyter lab
+top
+tunnel
+sudo apt update
+sudo apt upgrade 
+sudo add-apt-repository ppa:linuxuprising/java
+sudo apt install oracle-java11-installer
+java -version
+cd Downloads/
+ll
+sudo unzip -d /opt/ Workbench-Build125-with-optional-libs.zip 
+cd /opt/
+ll
+sudo rm -rf SQL*
+ll
+sudo rm -rf sql*
+ll
+sudo rm -rf down*
+ll
+sudo rm -rf containerd/
+sudo rm -rf ext/
+sudo rm -rf workbench32.png
+ll
+sudo rm -rf history.html
+sudo rm -rf log4j-sample.xml
+ll
+sudo rm -rf manual/
+sudo rm -rf LICENSE
+ll
+cd xslt/
+LL
+ll
+cd ..
+cd
+cd Downloads/
+sudo unzip -d /opt/workbench Workbench-Build125-with-optional-libs.zip 
+cd /opt/
+ll
+cd workbench/
+ll
+cd ..
+ll
+sudo rm -rf xslt/
+cd workbench/
+ll
+bash sqlworkbench.sh
+sudo bash sqlworkbench.sh
+bash sqlworkbench.sh
+bach sqlwbconsole.sh
+bash sqlwbconsole.sh
+ll
+sudo chmod -x sqlworkbench.sh
+ll
+sudo chmod -755 sqlworkbench.sh
+ll
+sudo chmod -x sqlworkbench.sh
+ll
+bash sqlworkbench.sh
+sudo bash sqlworkbench.sh
+ll
+sudo chmod -755 sqlworkbench.sh
+sudo chmod -x sqlworkbench.sh
+ll
+cd 
+cd Downloads/
+cd workbench/Workbench-Build125-with-optional-libs/
+mv sqlworkbench.sh /opt/workbench/
+sudo mv sqlworkbench.sh /opt/workbench/
+cd
+cd /opt/
+cd workbench/
+ll
+cd
+ssh analytics1
+cd
+tunnelx
+tunnel
+cd
+ssh analytics2
+cd /opt/
+cd workbench/
+ll
+cd ..
+ll
+sudo chown -R $USER /opt/workbench/
+ll
+sudo chown -R $USER:mono /opt/workbench/
+ll
+sudo chmod g+w /opt/workbench/
+ll
+git add --all
+git commit -am 'map_population_table fn'
+git push
+git add --all
+git commit -am 'sequence for population table'
+git push
+git add --all
+git commit -am 'literal column for PK for population table'
+git push
+git add --all
+git commit -am 'sequence for orm PK for population table'
+git push
+git add --all
+git commit -am 'composite PK for population table'
+git push
+git checkout master
+git pull
