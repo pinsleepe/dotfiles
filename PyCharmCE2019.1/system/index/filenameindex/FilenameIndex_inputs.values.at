@@ -1,0 +1,87 @@
+tdependency_links.txtpyzmq-18.0.0-py3.6.egg-infoPKG-INFOSOURCES.txtnot-zip-safetop_level.txtinstalled-files.txtdependency_links.txtwheel-0.33.4-py3.6.egg-infoPKG-INFOSOURCES.txtnot-zip-saferequires.txttop_level.txtentry_points.txtdependency_links.txtjupyter_core-4.4.0.dist-infoWHEEL	RECORDMETADATA	INSTALLERtop_level.txtentry_points.txtpyrsistent-0.14.11.dist-infoWHEEL	RECORDMETADATA	INSTALLERLICENCE.mittop_level.txtwcwidth-0.1.7-py3.6.egg-infoPKG-INFOzip-safeSOURCES.txttop_level.txtdependency_links.txt backcall-0.1.0-py3.6.egg-infoPKG-INFOSOURCES.txttop_level.txtinstalled-files.txtdependency_links.txt pandocfilters-1.4.2.dist-infoWHEEL	RECORDMETADATA	INSTALLERtop_level.txt!entrypoints-0.3-py3.6.egg-info!jupyter_client-5.2.4.dist-infoWHEEL	RECORDMETADATA	INSTALLER
+COPYING.mdtop_level.txtentry_points.txt!prompt_toolkit-2.0.9.dist-infoWHEEL	RECORD
+LICENSEMETADATA	INSTALLERAUTHORS.rsttop_level.txt!python_dotenv-0.10.3.dist-infoWHEEL	RECORD
+LICENSEMETADATA	INSTALLERtop_level.txtentry_points.txt!terminado-0.8.2-py3.6.egg-info"Send2Trash-1.5.0-py3.6.egg-infoPKG-INFOSOURCES.txttop_level.txtdependency_links.txt"defusedxml-0.6.0-py2.7.egg-infoPKG-INFOSOURCES.txttop_level.txtinstalled-files.txtdependency_links.txt"jsonschema-3.0.1-py3.6.egg-infoPKG-INFOSOURCES.txtrequires.txttop_level.txtentry_points.txtinstalled-files.txtdependency_links.txt"ptyprocess-0.6.0-py3.6.egg-info"python_dateutil-2.8.0.dist-infoWHEEL	RECORD
+LICENSEMETADATAzip-safe	INSTALLERtop_level.txt# nb_conda_kernels-2.2.2.dist-infoWHEEL	RECORD
+LICENSEMETADATA	INSTALLERtop_level.txtentry_points.txt# pickleshare-0.7.5-py3.6.egg-infoPKG-INFOSOURCES.txtrequires.txttop_level.txtinstalled-files.txtdependency_links.txt# setuptools-41.0.1-py3.6.egg-infoPKG-INFOzip-safeSOURCES.txttop_level.txtentry_points.txtdependency_links.txt$!certifi-2019.03.09-py3.6.egg-info$!requests_oauthlib-1.2.0.dist-infoWHEEL	RECORD
+LICENSEMETADATA	INSTALLERtop_level.txt$!webencodings-0.5.1-py3.6.egg-infoPKG-INFOSOURCES.txttop_level.txtdependency_links.txt(%ipython_genutils-0.2.0-py3.6.egg-info)&prometheus_client-0.6.0-py3.6.egg-infoPKG-INFOSOURCES.txtrequires.txttop_level.txtinstalled-files.txtdependency_links.txt+(pvectorc.cpython-36m-x86_64-linux-gnu.so	_io.py
+_locale.py_collections.py
+_ast.py_functools.py
+_imp.py
+_codecs.py_ctypes_test.py_lzma.pypvectorc.py
+_md5.py	_heapq.py	_crypt.py_testbuffer.py
+marshal.pyfaulthandler.py_weakref.py_multibytecodec.pybinascii.py
+_lsprof.pyzipimport.py	syslog.py_stat.py
+_ssl.py
+_csv.pyossaudiodev.py_codecs_kr.py_testmultiphase.pyfcntl.py_testcapi.py
+mmap.py_codecs_cn.py_warnings.py
+_sha512.pyposix.py	grp.pycmath.py_curses_panel.pyunicodedata.py
+termios.py
+spwd.py_sha1.py
+_blake2.pybuiltins.py
+_sre.py
+_bisect.pygc.py
+_struct.py_json.py_codecs_hk.py
+audioop.py	select.py_sha3.py
+time.py_multiprocessing.py_elementtree.pyerrno.pyxxsubtype.py
+_socket.py	parser.py	nis.py_hashlib.pyresource.py
+_random.py
+pyexpat.py
+_ctypes.py
+_bz2.py_tkinter.pyitertools.py	sys.py
+math.py_operator.py_codecs_tw.pyarray.py
+_curses.py_sqlite3.py_symtable.py	atexit.py_codecs_jp.py_testimportmultiple.pyreadline.py
+_string.py_datetime.py
+tornado
+_signal.py_codecs_iso2022.py
+_sha256.py_tracemalloc.py	pwd.py_asyncio.py
+markupsafe
+_opcode.py_decimal.py
+_thread.py
+_pickle.py_posixsubprocess.py__init__.pyspeedups.py_speedups.py__init__.pyxxlimited.py
+zlib.pycython_runtime.py_cython_0_29_5.pyzmq
+devices
+backend__init__.py	cython__init__.py	socket.py
+_device.pyconstants.pyutils.py_version.py
+context.py_proxy_steerable.py
+message.pyerror.py_poll.py__init__.pymonitoredqueue.py__init__.pyextResources-1753425276zmq
+backend	cython_poll.pyerror.pyutils.py	socket.py
+_device.py
+context.py
+message.py__init__.py_version.pyconstants.py_proxy_steerable.py__init__.py
+devices__init__.pymonitoredqueue.py__init__.pygc.py	_io.py	grp.py	nis.py	pwd.py	sys.py
+_ast.py
+_bz2.py
+_csv.py
+_imp.py
+_md5.py
+_sre.py
+_ssl.py
+math.py
+mmap.py
+spwd.py
+time.py
+tornado__init__.pyspeedups.py
+zlib.py_json.py_lzma.py_sha1.py_sha3.py_stat.pyarray.pycmath.pyerrno.pyfcntl.pyposix.py	_crypt.py	_heapq.py	atexit.py	parser.py	select.py	syslog.py
+_bisect.py
+_blake2.py
+_codecs.py
+_ctypes.py
+_curses.py
+_locale.py
+_lsprof.py
+_opcode.py
+_pickle.py
+_random.py
+_sha256.py
+_sha512.py
+_signal.py
+_socket.py
+_string.py
+_struct.py
+_thread.py
+audioop.py
+markupsafe__init__.py_speedups.py
+marshal.py
+pyexpat.py
+termios.py_asyncio.py_decimal.py_hashlib.py_sqlite3.py_tkinter.py_weakref.pybinascii.pybuiltins.pypvectorc.pyreadline.pyresource.py_datetime.py_operator.py_symtable.py_testcapi.py_warnings.pyitertools.pyxxlimited.pyxxsubtype.pyzipimport.py_codecs_cn.py_codecs_hk.py_codecs_jp.py_codecs_kr.py_codecs_tw.py_functools.py_testbuffer.pyossaudiodev.pyunicodedata.py_collections.py_ctypes_test.py_elementtree.py_tracemalloc.pyfaulthandler.py_curses_panel.py_cython_0_29_5.pycython_runtime.py_codecs_iso2022.py_multibytecodec.py_testmultiphase.py_multiprocessing.py_posixsubprocess.py_testimportmultiple.py

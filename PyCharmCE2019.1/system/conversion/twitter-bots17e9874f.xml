@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conversion>
+  <applied-converters>
+    <converter id="DockerRunConfigurationConverterProvider" />
+    <converter id="PythonTestConverterProvider" />
+  </applied-converters>
+  <project-files>
+    <file path="/home/mono/projects/python/twitter-bots/.idea/codeStyles/Project.xml" timestamp="1560710267814" />
+    <file path="/home/mono/projects/python/twitter-bots/.idea/dbnavigator.xml" timestamp="1559747447229" />
+    <file path="/home/mono/projects/python/twitter-bots/.idea/libraries/R_User_Library.xml" timestamp="1559747447306" />
+    <file path="/home/mono/projects/python/twitter-bots/.idea/misc.xml" timestamp="1559758081065" />
+    <file path="/home/mono/projects/python/twitter-bots/.idea/modules.xml" timestamp="1559747447237" />
+    <file path="/home/mono/projects/python/twitter-bots/.idea/twitter-bots.iml" timestamp="1559758081053" />
+    <file path="/home/mono/projects/python/twitter-bots/.idea/vcs.xml" timestamp="1559747447209" />
+    <file path="/home/mono/projects/python/twitter-bots/.idea/workspace.xml" timestamp="1560710551834" />
+  </project-files>
+</conversion>
+
