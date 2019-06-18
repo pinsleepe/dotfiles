@@ -1110,3 +1110,261 @@ Elapsed time on auto-detect: 9 ms
 2019-06-16 21:07:22,819 [  33153]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
 2019-06-16 21:07:22,824 [  33158]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
 2019-06-16 21:07:22,834 [  33168]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2019-06-17 13:00:14,361 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2019-06-17 13:00:14,493 [    132]   INFO -        #com.intellij.idea.Main - IDE: PyCharm (build #PC-191.7479.30, 29 May 2019 17:16) 
+2019-06-17 13:00:14,493 [    132]   INFO -        #com.intellij.idea.Main - OS: Linux (5.0.0-16-generic, amd64) 
+2019-06-17 13:00:14,493 [    132]   INFO -        #com.intellij.idea.Main - JRE: 11.0.2+9-b159.60 (JetBrains s.r.o) 
+2019-06-17 13:00:14,493 [    132]   INFO -        #com.intellij.idea.Main - JVM: 11.0.2+9-b159.60 (OpenJDK 64-Bit Server VM) 
+2019-06-17 13:00:14,493 [    132]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx750m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Djdk.http.auth.tunneling.disabledSchemes="" -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Dawt.useSystemAAFontSettings=lcd -Dsun.java2d.renderer=sun.java2d.marlin.MarlinRenderingEngine -Dsun.tools.attach.tmp.only=true -XX:ErrorFile=/home/mono/java_error_in_PYCHARM_%p.log -XX:HeapDumpPath=/home/mono/java_error_in_PYCHARM.hprof -Didea.paths.selector=PyCharmCE2019.1 -Djb.vmOptionsFile=/snap/pycharm-community/132/bin/pycharm64.vmoptions -Didea.platform.prefix=PyCharmCore 
+2019-06-17 13:00:14,493 [    132]   INFO -        #com.intellij.idea.Main - charsets: JNU=UTF-8 file=UTF-8 
+2019-06-17 13:00:14,527 [    166]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 33 ms 
+2019-06-17 13:00:15,604 [   1243]   INFO -     #com.intellij.util.ui.JBUI - User scale factor: 1.0 
+2019-06-17 13:00:15,616 [   1255]   INFO -     #com.intellij.util.ui.JBUI - System scale factor: 2.0 (JRE-managed HiDPI) 
+2019-06-17 13:00:16,801 [   2440]   INFO - .intellij.idea.IdeaApplication - CPU cores: 8; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@2fcfb15[Running, parallelism = 7, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@29987648 
+2019-06-17 13:00:16,967 [   2606]   INFO - .intellij.idea.IdeaApplication - WM detected: GNOME Shell 
+2019-06-17 13:00:17,669 [   3308]   INFO - llij.ide.plugins.PluginManager - Cannot load /home/mono/.PyCharmCE2019.1/config/plugins/StringManipulation/lib/StringManipulation.jar!/META-INF/plugin.xml 
+org.jdom.JDOMException: ParseError at [row,col]:[871,12]
+Message: The element type "change-notes" must be terminated by the matching end-tag "</change-notes>".
+	at com.intellij.openapi.util.JDOMUtil.loadUsingStaX(JDOMUtil.java:227)
+	at com.intellij.openapi.util.JDOMUtil.load(JDOMUtil.java:307)
+	at com.intellij.ide.plugins.PluginManagerCore.loadDescriptorFromJar(PluginManagerCore.java:698)
+	at com.intellij.ide.plugins.PluginManagerCore.loadDescriptor(PluginManagerCore.java:817)
+	at com.intellij.ide.plugins.PluginManagerCore.loadDescriptor(PluginManagerCore.java:724)
+	at com.intellij.ide.plugins.PluginManagerCore.lambda$loadDescriptorsFromDir$9(PluginManagerCore.java:955)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.doRun(BoundedTaskExecutor.java:220)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.access$100(BoundedTaskExecutor.java:26)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$2.lambda$run$0(BoundedTaskExecutor.java:198)
+	at com.intellij.util.ConcurrencyUtil.runUnderThreadName(ConcurrencyUtil.java:224)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$2.run(BoundedTaskExecutor.java:194)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[871,12]
+Message: The element type "change-notes" must be terminated by the matching end-tag "</change-notes>".
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLStreamReaderImpl.next(Unknown Source)
+	at com.intellij.openapi.util.SafeStAXStreamBuilder.processElementFragment(SafeStAXStreamBuilder.java:117)
+	at com.intellij.openapi.util.SafeStAXStreamBuilder.build(SafeStAXStreamBuilder.java:86)
+	at com.intellij.openapi.util.JDOMUtil.loadUsingStaX(JDOMUtil.java:220)
+	... 14 more
+2019-06-17 13:00:18,083 [   3722]   INFO - llij.ide.plugins.PluginManager - load plugin descriptors took 597 ms 
+2019-06-17 13:00:18,182 [   3821]   INFO - llij.ide.plugins.PluginManager - Plugin 'IntelliJ Configuration Script' can't be loaded because: Plugin does not include any module dependency tags in its plugin.xml therefore is assumed legacy and can be loaded only in IntelliJ IDEA 
+2019-06-17 13:00:18,194 [   3833]   INFO - llij.ide.plugins.PluginManager - Plugin '.ignore' can't be loaded because: Plugin is disabled 
+2019-06-17 13:00:18,197 [   3836]   INFO - llij.ide.plugins.PluginManager - Plugin 'Markdown Navigator' can't be loaded because: Plugin is disabled 
+2019-06-17 13:00:18,355 [   3994]   INFO - llij.ide.plugins.PluginManager - 34 plugins initialized in 870 ms 
+2019-06-17 13:00:18,356 [   3995]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: Copyright (191.7479.30), EditorConfig (191.7479.30), Git Integration (191.7479.30), GitHub (191.7479.30), IDEA CORE (191.7479.30), IntelliLang (191.7479.30), Markdown support (191.7479.30), Mercurial Integration (191.7479.30), Properties Support (191.7479.30), Python Copyright (191.7479.30), Python IntelliLang (191.7479.30), Python ReStructureText Integration (191.7479.30), Python Terminal (191.7479.30), ReStructuredText Support (191.7479.30), Settings Repository (191.7479.30), Subversion (191.7479.30), Task Management (191.7479.30), Terminal (191.7479.30), YAML (191.7479.30) 
+2019-06-17 13:00:18,356 [   3995]   INFO - llij.ide.plugins.PluginManager - Loaded custom plugins: .env files support (0.7), BashSupport (1.7.7), CSV Plugin (2.5.0), Docker integration (191.7141.44), Ideolog (191.0.12.0), Ini4Idea (191.5849.22), Json Parser (1.4.1), Key Promoter X (2019.2), Lines Sorter (1.0.1), Nyan Progress Bar (1.12), R Language Support (1.0.11), Rainbow Brackets (5.19) 
+2019-06-17 13:00:18,356 [   3995]   INFO - llij.ide.plugins.PluginManager - Disabled plugins: .ignore (3.1.2.191), IntelliJ Configuration Script (191.7479.30), Markdown Navigator (2.8.4) 
+2019-06-17 13:00:20,193 [   5832]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=705 
+2019-06-17 13:00:20,279 [   5918]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /snap/pycharm-community/132/bin/fsnotifier64 
+2019-06-17 13:00:20,302 [   5941]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2019-06-17 13:00:20,986 [   6625]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=20, fontScale=1.0; restored: fontSize=20, fontScale=1.0 
+2019-06-17 13:00:22,090 [   7729]   INFO -     #com.intellij.util.ui.JBUI - User scale factor: 1.25 
+2019-06-17 13:00:22,508 [   8147]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2019-06-17 13:00:22,573 [   8212]   INFO - tellij.ide.SystemHealthMonitor - restored ignored PIPE handler 
+2019-06-17 13:00:22,753 [   8392]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2019-06-17 13:00:22,913 [   8552]   INFO - gs.impl.UpdateCheckerComponent - channel: release 
+2019-06-17 13:00:23,343 [   8982]   INFO - il.indexing.FileBasedIndexImpl - Index exts enumerated:269, number of extensions:25 
+2019-06-17 13:00:23,353 [   8992]   INFO - il.indexing.FileBasedIndexImpl - Index scheduled:9 
+2019-06-17 13:00:23,409 [   9048]   INFO - tellij.psi.stubs.StubIndexImpl - All stub exts enumerated:40, number of extensions:20 
+2019-06-17 13:00:23,418 [   9057]   INFO - tellij.psi.stubs.StubIndexImpl - stub exts update scheduled:8 
+2019-06-17 13:00:23,641 [   9280]   INFO - pi.util.registry.RegistryValue - Registry value 'ide.ssh.one.time.password' has changed to 'true' 
+2019-06-17 13:00:23,785 [   9424]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=12, fontScale=1.0; restored: fontSize=12, fontScale=1.0 
+2019-06-17 13:00:23,787 [   9426]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=18, fontScale=1.0; restored: fontSize=18, fontScale=1.0 
+2019-06-17 13:00:24,399 [  10038]   INFO - plication.impl.ApplicationImpl - 72 application components initialized in 6918ms 
+2019-06-17 13:00:24,453 [  10092]   INFO - .intellij.idea.IdeaApplication - App initialization took 12920 ms 
+2019-06-17 13:00:24,512 [  10151]   INFO - ellij.project.impl.ProjectImpl - 15 project components initialized in 1121 ms 
+2019-06-17 13:00:24,844 [  10483]   INFO - j.ide.ui.OptionsTopHitProvider - 2701 ms spent to cache options in application 
+2019-06-17 13:00:24,844 [  10483]   INFO - .openapi.application.Preloader - com.intellij.ide.ui.OptionsTopHitProvider$Activity took 2700 ms 
+2019-06-17 13:00:25,633 [  11272]   INFO - m.intellij.ui.mac.touchbar.NST - OS doesn't support touchbar, skip nst loading 
+2019-06-17 13:00:27,071 [  12710]   INFO - penapi.wm.impl.GlobalMenuLinux - created instance of GlobalMenuLinux for xid=0x580004a 
+2019-06-17 13:00:27,072 [  12711]   INFO - penapi.wm.impl.GlobalMenuLinux - Closed dbus-service 'com.canonical.AppMenu.Registrar' 
+2019-06-17 13:00:29,283 [  14922]   INFO - pl.projectlevelman.NewMappings - VCS Root: [] - [<Project>] 
+2019-06-17 13:00:29,287 [  14926]   INFO - pl.projectlevelman.NewMappings - VCS Root: [Git] - [/home/mono/projects/python/twitter-bots] 
+2019-06-17 13:00:30,712 [  16351]   INFO - ellij.project.impl.ProjectImpl - 93 project components initialized in 2983 ms 
+2019-06-17 13:00:30,996 [  16635]   INFO - le.impl.ModuleManagerComponent - 1 module(s) loaded in 283 ms 
+2019-06-17 13:00:31,506 [  17145]   INFO - j.ide.script.IdeStartupScripts - 0 startup script(s) found 
+2019-06-17 13:00:31,568 [  17207]   INFO - .openapi.application.Preloader - com.intellij.openapi.actionSystem.impl.ActionPreloader took 6723 ms 
+2019-06-17 13:00:32,506 [  18145]   INFO - .openapi.application.Preloader - com.intellij.ide.ui.search.SearchableOptionPreloader took 937 ms 
+2019-06-17 13:00:33,184 [  18823]   INFO - ndex.PrebuiltIndexProviderBase - Using prebuilt id-index from /home/mono/.PyCharmCE2019.1/system/index/.persistent/prebuilt/Python/id-index.input 
+2019-06-17 13:00:33,250 [  18889]   INFO - .openapi.application.Preloader - com.intellij.codeInsight.completion.CompletionPreloader took 743 ms 
+2019-06-17 13:00:33,260 [  18899]   INFO - .openapi.application.Preloader - com.intellij.ide.actions.GotoClassPresentationUpdater took 6 ms 
+2019-06-17 13:00:33,428 [  19067]   INFO - .openapi.application.Preloader - com.ansorgit.plugins.bash.editor.codecompletion.PreloadPathCompletionActivity took 166 ms 
+2019-06-17 13:00:33,752 [  19391]   INFO - .diagnostic.PerformanceWatcher - Pushing Python language level to 5 roots in 1 SDKs took 550ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-06-17 13:00:33,752 [  19391]   INFO - pl$FileIndexDataInitialization - Initialization done:10399 
+2019-06-17 13:00:33,788 [  19427]   INFO - exImpl$StubIndexInitialization - Initialization done:36 
+2019-06-17 13:00:34,975 [  20614]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 18ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-06-17 13:00:34,980 [  20619]   INFO - tartup.impl.StartupManagerImpl - OpenFilesActivity run in 1808ms under project opening modal progress 
+2019-06-17 13:00:35,029 [  20668]   INFO - .diagnostic.PerformanceWatcher - Post-startup activities under progress took 2053ms; general responsiveness: ok; EDT responsiveness: 0/2 sluggish, 1/2 very slow 
+2019-06-17 13:00:35,554 [  21193]   WARN - openapi.wm.impl.ToolWindowImpl - ToolWindow icons should be 13x13. Please fix ToolWindow (ID:  Key Promoter X) or icon jar:file:/home/mono/.PyCharmCE2019.1/config/plugins/Key-Promoter-X/lib/IntelliJ-Key-Promoter-X-2019.2.jar!/de/halirutan/keypromoterx/icons/kpxToolwindow.svg 
+2019-06-17 13:00:36,614 [  22253]   INFO - j.ide.ui.OptionsTopHitProvider - 492 ms spent on EDT to cache options in application 
+2019-06-17 13:00:37,287 [  22926]   INFO - tartup.impl.StartupManagerImpl - /home/mono/projects/python/twitter-bots/.idea case-sensitivity: expected=true actual=true 
+2019-06-17 13:00:37,332 [  22971]   INFO -  #git4idea.commands.GitHandler - [.] git version 
+2019-06-17 13:00:37,353 [  22992]   INFO -  #git4idea.commands.GitHandler - git version 2.20.1 
+2019-06-17 13:00:37,368 [  23007]   INFO - ea.config.GitExecutableManager - Git version for /usr/bin/git : 2.20.1 
+2019-06-17 13:00:37,579 [  23218]   INFO - pl.projectlevelman.NewMappings - VCS Root: [Git] - [/home/mono/projects/python/twitter-bots] 
+2019-06-17 13:00:37,905 [  23544]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 2928ms; general responsiveness: ok; EDT responsiveness: 1/3 sluggish, 2/3 very slow 
+2019-06-17 13:00:38,564 [  24203]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 11217 ms 
+2019-06-17 13:00:39,441 [  25080]   INFO - j.ide.ui.OptionsTopHitProvider - 54 ms spent to cache options in project 
+2019-06-17 13:00:39,839 [  25478]   INFO - tartup.impl.StartupManagerImpl - Some post-startup activities freeze UI for noticeable time. Please consider making them DumbAware to do them in background under modal progress, or just making them faster to speed up project opening. 
+2019-06-17 13:00:39,839 [  25478]   INFO - tartup.impl.StartupManagerImpl - SkeletonUpdater run in 363ms on UI thread 
+2019-06-17 13:00:40,858 [  26497]   INFO - j.ide.ui.OptionsTopHitProvider - 158 ms spent on EDT to cache options in project 
+2019-06-17 13:00:41,395 [  27034]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 117 to update, calculated in 2ms 
+2019-06-17 13:00:42,513 [  28152]   INFO - .intellij.util.EnvironmentUtil - loading shell env: /bin/bash -c . '/home/mono/anaconda3/bin/activate' '/home/mono/anaconda3/envs/twitter';'/snap/pycharm-community/132/bin/printenv.py' '/tmp/intellij-shell-env.tmp' 
+2019-06-17 13:00:42,680 [  28319]   INFO - .intellij.util.EnvironmentUtil - loading shell env: /bin/bash -c . '/home/mono/anaconda3/bin/activate' '/home/mono/anaconda3/envs/twitter';'/snap/pycharm-community/132/bin/printenv.py' '/tmp/intellij-shell-env.1.tmp' 
+2019-06-17 13:00:42,921 [  28560]   INFO - .intellij.util.EnvironmentUtil - shell environment loaded (77 vars) 
+2019-06-17 13:00:42,983 [  28622]   INFO - .intellij.util.EnvironmentUtil - shell environment loaded (77 vars) 
+2019-06-17 13:00:43,082 [  28721]   INFO - ns.python.sdk.PythonSdkUpdater - Updating sys.path took 566 ms 
+2019-06-17 13:00:43,084 [  28723]   INFO - ns.python.sdk.PythonSdkUpdater - Bogus sys.path entry /home/mono/anaconda3/envs/twitter/lib/python36.zip 
+2019-06-17 13:00:43,087 [  28726]   INFO - ns.python.sdk.PythonSdkUpdater - Binary skeletons directory for SDK Python 3.6 (twitter) (/home/mono/anaconda3/envs/twitter/bin/python3.6)): /home/mono/.PyCharmCE2019.1/system/python_stubs/-1753425276 
+2019-06-17 13:00:43,091 [  28730]   INFO - ns.python.sdk.PythonSdkUpdater - User skeletons directory for SDK Python 3.6 (twitter) (/home/mono/anaconda3/envs/twitter/bin/python3.6)): /snap/pycharm-community/132/helpers/python-skeletons 
+2019-06-17 13:00:43,119 [  28758]   INFO - ns.python.sdk.PythonSdkUpdater - Performing background update of skeletons for SDK Python 3.6 (twitter) (/home/mono/anaconda3/envs/twitter/bin/python3.6) 
+2019-06-17 13:00:43,147 [  28786]   INFO - .skeletons.PySkeletonRefresher - Refreshing skeletons for /home/mono/anaconda3/envs/twitter/bin/python3.6 
+2019-06-17 13:00:43,603 [  29242]   INFO - .skeletons.PySkeletonGenerator - Retrieving binary module list took 435 ms 
+2019-06-17 13:00:43,607 [  29246]   INFO - tPregeneratedSkeletonsProvider - Home path is /snap/pycharm-community/132 
+2019-06-17 13:00:43,640 [  29279]   INFO - .skeletons.PySkeletonRefresher - Rebuilding skeletons for binaries took 18 ms 
+2019-06-17 13:00:43,652 [  29291]   INFO - ns.python.sdk.PythonSdkUpdater - Performing background scan of packages for SDK Python 3.6 (twitter) (/home/mono/anaconda3/envs/twitter/bin/python3.6) 
+2019-06-17 13:00:43,662 [  29301]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /home/mono/anaconda3/envs/twitter/bin/python3.6 /snap/pycharm-community/132/helpers/packaging_tool.py list 
+2019-06-17 13:00:48,062 [  33701]   INFO - ndex.PrebuiltIndexProviderBase - Using prebuilt sdk-stubs from /home/mono/.PyCharmCE2019.1/system/index/.persistent/prebuilt/Python/sdk-stubs.input 
+2019-06-17 13:00:49,770 [  35409]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 8375ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-06-17 13:00:51,987 [  37626]   INFO - hon.packaging.PyPIPackageCache - Loaded 183728 packages from /home/mono/.PyCharmCE2019.1/system/python_packages/pypi-cache.json 
+2019-06-17 13:22:36,235 [1341874]   INFO - rationStore.ComponentStoreImpl - Saving appRSettings took 59 ms 
+2019-06-17 13:22:36,482 [1342121]   INFO - rationStore.ComponentStoreImpl - Saving Project '/home/mono/projects/python/twitter-bots' twitter-botsXDebuggerManager took 33 ms 
+2019-06-17 13:22:36,529 [1342168]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 554 ms 
+2019-06-17 13:22:40,639 [1346278]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 53 ms 
+2019-06-17 13:22:43,576 [1349215]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 55 ms 
+2019-06-17 13:56:43,929 [3389568]   INFO - python.packaging.PyPackageUtil - Refreshing installed packages for SDK /home/mono/anaconda3/envs/twitter/bin/python3.6 
+2019-06-17 13:56:43,929 [3389568]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /home/mono/anaconda3/envs/twitter/bin/python3.6 /snap/pycharm-community/132/helpers/packaging_tool.py list 
+2019-06-17 13:56:44,097 [3389736]   INFO - rationStore.ComponentStoreImpl - Saving appRSettings took 21 ms 
+2019-06-17 13:56:44,191 [3389830]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 338 ms 
+2019-06-17 13:56:44,243 [3389882]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 211 to update, calculated in 145ms 
+2019-06-17 13:56:45,474 [3391113]   INFO - .diagnostic.PerformanceWatcher - Reindexing refreshed files took 1230ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-06-17 13:57:11,935 [3417574]   INFO - rationStore.ComponentStoreImpl - Saving appGeneralSettings took 14 ms 
+2019-06-17 13:57:11,954 [3417593]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 48 ms 
+2019-06-17 13:59:39,729 [3565368]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 53 ms 
+2019-06-17 13:59:50,604 [3576243]   INFO - rationStore.ComponentStoreImpl - Saving appRainbowSettings took 11 ms 
+2019-06-17 13:59:50,616 [3576255]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 102 ms 
+2019-06-18 08:32:14,282 [70319921]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 40 ms 
+2019-06-18 08:51:21,133 [71466772]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2019-06-18 08:51:21,135 [71466774]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2019-06-18 08:51:21,070 [71466709]   WARN - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 143 
+2019-06-18 08:51:21,135 [71466774]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2019-06-18 19:08:10,478 [      0]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2019-06-18 19:08:10,612 [    134]   INFO -        #com.intellij.idea.Main - IDE: PyCharm (build #PC-191.7479.30, 29 May 2019 17:16) 
+2019-06-18 19:08:10,612 [    134]   INFO -        #com.intellij.idea.Main - OS: Linux (5.0.0-16-generic, amd64) 
+2019-06-18 19:08:10,612 [    134]   INFO -        #com.intellij.idea.Main - JRE: 11.0.2+9-b159.60 (JetBrains s.r.o) 
+2019-06-18 19:08:10,613 [    135]   INFO -        #com.intellij.idea.Main - JVM: 11.0.2+9-b159.60 (OpenJDK 64-Bit Server VM) 
+2019-06-18 19:08:10,613 [    135]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms128m -Xmx750m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -ea -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Djdk.http.auth.tunneling.disabledSchemes="" -XX:+HeapDumpOnOutOfMemoryError -XX:-OmitStackTraceInFastThrow -Dawt.useSystemAAFontSettings=lcd -Dsun.java2d.renderer=sun.java2d.marlin.MarlinRenderingEngine -Dsun.tools.attach.tmp.only=true -XX:ErrorFile=/home/mono/java_error_in_PYCHARM_%p.log -XX:HeapDumpPath=/home/mono/java_error_in_PYCHARM.hprof -Didea.paths.selector=PyCharmCE2019.1 -Djb.vmOptionsFile=/snap/pycharm-community/132/bin/pycharm64.vmoptions -Didea.platform.prefix=PyCharmCore 
+2019-06-18 19:08:10,613 [    135]   INFO -        #com.intellij.idea.Main - charsets: JNU=UTF-8 file=UTF-8 
+2019-06-18 19:08:10,654 [    176]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 40 ms 
+2019-06-18 19:08:11,702 [   1224]   INFO -     #com.intellij.util.ui.JBUI - User scale factor: 1.0 
+2019-06-18 19:08:11,717 [   1239]   INFO -     #com.intellij.util.ui.JBUI - System scale factor: 2.0 (JRE-managed HiDPI) 
+2019-06-18 19:08:12,917 [   2439]   INFO - .intellij.idea.IdeaApplication - CPU cores: 8; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@84491b3[Running, parallelism = 7, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@2b52953 
+2019-06-18 19:08:13,041 [   2563]   INFO - .intellij.idea.IdeaApplication - WM detected: GNOME Shell 
+2019-06-18 19:08:13,681 [   3203]   INFO - llij.ide.plugins.PluginManager - Cannot load /home/mono/.PyCharmCE2019.1/config/plugins/StringManipulation/lib/StringManipulation.jar!/META-INF/plugin.xml 
+org.jdom.JDOMException: ParseError at [row,col]:[871,12]
+Message: The element type "change-notes" must be terminated by the matching end-tag "</change-notes>".
+	at com.intellij.openapi.util.JDOMUtil.loadUsingStaX(JDOMUtil.java:227)
+	at com.intellij.openapi.util.JDOMUtil.load(JDOMUtil.java:307)
+	at com.intellij.ide.plugins.PluginManagerCore.loadDescriptorFromJar(PluginManagerCore.java:698)
+	at com.intellij.ide.plugins.PluginManagerCore.loadDescriptor(PluginManagerCore.java:817)
+	at com.intellij.ide.plugins.PluginManagerCore.loadDescriptor(PluginManagerCore.java:724)
+	at com.intellij.ide.plugins.PluginManagerCore.lambda$loadDescriptorsFromDir$9(PluginManagerCore.java:955)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.doRun(BoundedTaskExecutor.java:220)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.access$100(BoundedTaskExecutor.java:26)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$2.lambda$run$0(BoundedTaskExecutor.java:198)
+	at com.intellij.util.ConcurrencyUtil.runUnderThreadName(ConcurrencyUtil.java:224)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$2.run(BoundedTaskExecutor.java:194)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: javax.xml.stream.XMLStreamException: ParseError at [row,col]:[871,12]
+Message: The element type "change-notes" must be terminated by the matching end-tag "</change-notes>".
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLStreamReaderImpl.next(Unknown Source)
+	at com.intellij.openapi.util.SafeStAXStreamBuilder.processElementFragment(SafeStAXStreamBuilder.java:117)
+	at com.intellij.openapi.util.SafeStAXStreamBuilder.build(SafeStAXStreamBuilder.java:86)
+	at com.intellij.openapi.util.JDOMUtil.loadUsingStaX(JDOMUtil.java:220)
+	... 14 more
+2019-06-18 19:08:14,093 [   3615]   INFO - llij.ide.plugins.PluginManager - load plugin descriptors took 585 ms 
+2019-06-18 19:08:14,197 [   3719]   INFO - llij.ide.plugins.PluginManager - Plugin 'IntelliJ Configuration Script' can't be loaded because: Plugin does not include any module dependency tags in its plugin.xml therefore is assumed legacy and can be loaded only in IntelliJ IDEA 
+2019-06-18 19:08:14,208 [   3730]   INFO - llij.ide.plugins.PluginManager - Plugin '.ignore' can't be loaded because: Plugin is disabled 
+2019-06-18 19:08:14,211 [   3733]   INFO - llij.ide.plugins.PluginManager - Plugin 'Markdown Navigator' can't be loaded because: Plugin is disabled 
+2019-06-18 19:08:14,352 [   3874]   INFO - llij.ide.plugins.PluginManager - 34 plugins initialized in 844 ms 
+2019-06-18 19:08:14,352 [   3874]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: Copyright (191.7479.30), EditorConfig (191.7479.30), Git Integration (191.7479.30), GitHub (191.7479.30), IDEA CORE (191.7479.30), IntelliLang (191.7479.30), Markdown support (191.7479.30), Mercurial Integration (191.7479.30), Properties Support (191.7479.30), Python Copyright (191.7479.30), Python IntelliLang (191.7479.30), Python ReStructureText Integration (191.7479.30), Python Terminal (191.7479.30), ReStructuredText Support (191.7479.30), Settings Repository (191.7479.30), Subversion (191.7479.30), Task Management (191.7479.30), Terminal (191.7479.30), YAML (191.7479.30) 
+2019-06-18 19:08:14,352 [   3874]   INFO - llij.ide.plugins.PluginManager - Loaded custom plugins: .env files support (0.7), BashSupport (1.7.7), CSV Plugin (2.5.0), Docker integration (191.7141.44), Ideolog (191.0.12.0), Ini4Idea (191.5849.22), Json Parser (1.4.1), Key Promoter X (2019.2), Lines Sorter (1.0.1), Nyan Progress Bar (1.12), R Language Support (1.0.11), Rainbow Brackets (5.19) 
+2019-06-18 19:08:14,352 [   3874]   INFO - llij.ide.plugins.PluginManager - Disabled plugins: .ignore (3.1.2.191), IntelliJ Configuration Script (191.7479.30), Markdown Navigator (2.8.4) 
+2019-06-18 19:08:16,057 [   5579]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=705 
+2019-06-18 19:08:16,147 [   5669]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: /snap/pycharm-community/132/bin/fsnotifier64 
+2019-06-18 19:08:16,167 [   5689]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2019-06-18 19:08:16,814 [   6336]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=20, fontScale=1.0; restored: fontSize=20, fontScale=1.0 
+2019-06-18 19:08:17,984 [   7506]   INFO -     #com.intellij.util.ui.JBUI - User scale factor: 1.25 
+2019-06-18 19:08:18,386 [   7908]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2019-06-18 19:08:18,530 [   8052]   INFO - tellij.ide.SystemHealthMonitor - restored ignored PIPE handler 
+2019-06-18 19:08:18,586 [   8108]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2019-06-18 19:08:18,686 [   8208]   INFO - gs.impl.UpdateCheckerComponent - channel: release 
+2019-06-18 19:08:19,032 [   8554]   INFO - il.indexing.FileBasedIndexImpl - Index exts enumerated:208, number of extensions:25 
+2019-06-18 19:08:19,037 [   8559]   INFO - il.indexing.FileBasedIndexImpl - Index scheduled:5 
+2019-06-18 19:08:19,069 [   8591]   INFO - tellij.psi.stubs.StubIndexImpl - All stub exts enumerated:18, number of extensions:20 
+2019-06-18 19:08:19,076 [   8598]   INFO - tellij.psi.stubs.StubIndexImpl - stub exts update scheduled:6 
+2019-06-18 19:08:19,238 [   8760]   INFO - pi.util.registry.RegistryValue - Registry value 'ide.ssh.one.time.password' has changed to 'true' 
+2019-06-18 19:08:19,384 [   8906]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=12, fontScale=1.0; restored: fontSize=12, fontScale=1.0 
+2019-06-18 19:08:19,394 [   8916]   INFO - com.intellij.ide.ui.UISettings - Loaded: fontSize=18, fontScale=1.0; restored: fontSize=18, fontScale=1.0 
+2019-06-18 19:08:20,007 [   9529]   INFO - plication.impl.ApplicationImpl - 72 application components initialized in 6503ms 
+2019-06-18 19:08:20,067 [   9589]   INFO - .intellij.idea.IdeaApplication - App initialization took 12321 ms 
+2019-06-18 19:08:20,114 [   9636]   INFO - ellij.project.impl.ProjectImpl - 15 project components initialized in 1054 ms 
+2019-06-18 19:08:20,383 [   9905]   INFO - j.ide.ui.OptionsTopHitProvider - 2347 ms spent to cache options in application 
+2019-06-18 19:08:20,384 [   9906]   INFO - .openapi.application.Preloader - com.intellij.ide.ui.OptionsTopHitProvider$Activity took 2348 ms 
+2019-06-18 19:08:23,320 [  12842]   INFO - penapi.wm.impl.GlobalMenuLinux - Closed dbus-service 'com.canonical.AppMenu.Registrar' 
+2019-06-18 19:08:23,375 [  12897]   INFO - m.intellij.ui.mac.touchbar.NST - OS doesn't support touchbar, skip nst loading 
+2019-06-18 19:08:24,485 [  14007]   INFO - j.ide.ui.OptionsTopHitProvider - 1027 ms spent on EDT to cache options in application 
+2019-06-18 19:08:26,302 [  15824]   INFO - .openapi.application.Preloader - com.intellij.openapi.actionSystem.impl.ActionPreloader took 5917 ms 
+2019-06-18 19:08:26,681 [  16203]   INFO - .openapi.application.Preloader - com.intellij.ide.ui.search.SearchableOptionPreloader took 378 ms 
+2019-06-18 19:08:27,568 [  17090]   INFO - .openapi.application.Preloader - com.intellij.codeInsight.completion.CompletionPreloader took 887 ms 
+2019-06-18 19:08:27,581 [  17103]   INFO - .openapi.application.Preloader - com.intellij.ide.actions.GotoClassPresentationUpdater took 12 ms 
+2019-06-18 19:08:27,662 [  17184]   INFO - .openapi.application.Preloader - com.ansorgit.plugins.bash.editor.codecompletion.PreloadPathCompletionActivity took 80 ms 
+2019-06-18 19:08:28,194 [  17716]   INFO - ndex.PrebuiltIndexProviderBase - Using prebuilt id-index from /home/mono/.PyCharmCE2019.1/system/index/.persistent/prebuilt/Python/id-index.input 
+2019-06-18 19:08:28,281 [  17803]   INFO - pl.projectlevelman.NewMappings - VCS Root: [] - [<Project>] 
+2019-06-18 19:08:28,283 [  17805]   INFO - pl.projectlevelman.NewMappings - VCS Root: [Git] - [/home/mono/projects/python/twitter-bots] 
+2019-06-18 19:08:28,528 [  18050]   INFO - pl$FileIndexDataInitialization - Initialization done:9490 
+2019-06-18 19:08:28,561 [  18083]   INFO - exImpl$StubIndexInitialization - Initialization done:33 
+2019-06-18 19:08:28,904 [  18426]   INFO - ellij.project.impl.ProjectImpl - 93 project components initialized in 1404 ms 
+2019-06-18 19:08:29,157 [  18679]   INFO - le.impl.ModuleManagerComponent - 1 module(s) loaded in 251 ms 
+2019-06-18 19:08:29,309 [  18831]   INFO - j.ide.script.IdeStartupScripts - 0 startup script(s) found 
+2019-06-18 19:08:30,008 [  19530]   INFO - penapi.wm.impl.GlobalMenuLinux - created instance of GlobalMenuLinux for xid=0x5c000a5 
+2019-06-18 19:08:31,474 [  20996]   INFO - .diagnostic.PerformanceWatcher - Pushing Python language level to 5 roots in 1 SDKs took 411ms; general responsiveness: ok; EDT responsiveness: 1/1 sluggish 
+2019-06-18 19:08:32,756 [  22278]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 56ms; general responsiveness: ok; EDT responsiveness: ok 
+2019-06-18 19:08:32,766 [  22288]   INFO - tartup.impl.StartupManagerImpl - OpenFilesActivity run in 1916ms under project opening modal progress 
+2019-06-18 19:08:32,810 [  22332]   INFO - .diagnostic.PerformanceWatcher - Post-startup activities under progress took 2172ms; general responsiveness: ok; EDT responsiveness: 1/2 sluggish, 1/2 very slow 
+2019-06-18 19:08:33,432 [  22954]   WARN - openapi.wm.impl.ToolWindowImpl - ToolWindow icons should be 13x13. Please fix ToolWindow (ID:  Key Promoter X) or icon jar:file:/home/mono/.PyCharmCE2019.1/config/plugins/Key-Promoter-X/lib/IntelliJ-Key-Promoter-X-2019.2.jar!/de/halirutan/keypromoterx/icons/kpxToolwindow.svg 
+2019-06-18 19:08:35,135 [  24657]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 2375ms; general responsiveness: ok; EDT responsiveness: 1/3 sluggish, 1/3 very slow 
+2019-06-18 19:08:35,137 [  24659]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 199 files to update 
+2019-06-18 19:08:35,452 [  24974]   INFO - tartup.impl.StartupManagerImpl - /home/mono/projects/python/twitter-bots/.idea case-sensitivity: expected=true actual=true 
+2019-06-18 19:08:35,498 [  25020]   INFO -  #git4idea.commands.GitHandler - [.] git version 
+2019-06-18 19:08:35,527 [  25049]   INFO -  #git4idea.commands.GitHandler - git version 2.20.1 
+2019-06-18 19:08:35,537 [  25059]   INFO - ea.config.GitExecutableManager - Git version for /usr/bin/git : 2.20.1 
+2019-06-18 19:08:35,731 [  25253]   INFO - pl.projectlevelman.NewMappings - VCS Root: [Git] - [/home/mono/projects/python/twitter-bots] 
+2019-06-18 19:08:36,535 [  26057]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 9204 ms 
+2019-06-18 19:08:42,646 [  32168]   INFO - ndex.PrebuiltIndexProviderBase - Using prebuilt sdk-stubs from /home/mono/.PyCharmCE2019.1/system/index/.persistent/prebuilt/Python/sdk-stubs.input 
+2019-06-18 19:08:43,717 [  33239]   INFO - .diagnostic.PerformanceWatcher - Unindexed files update took 8580ms; general responsiveness: ok; EDT responsiveness: 1/8 sluggish 
+2019-06-18 19:08:43,719 [  33241]   INFO - g.FileBasedIndexProjectHandler - Reindexing refreshed files: 0 to update, calculated in 1ms 
+2019-06-18 19:08:43,771 [  33293]   INFO - j.ide.ui.OptionsTopHitProvider - 44 ms spent to cache options in project 
+2019-06-18 19:08:44,082 [  33604]   INFO - j.ide.ui.OptionsTopHitProvider - 174 ms spent on EDT to cache options in project 
+2019-06-18 19:08:46,148 [  35670]   INFO - hon.packaging.PyPIPackageCache - Loaded 183728 packages from /home/mono/.PyCharmCE2019.1/system/python_packages/pypi-cache.json 
+2019-06-18 19:08:46,842 [  36364]   INFO - .intellij.util.EnvironmentUtil - loading shell env: /bin/bash -c . '/home/mono/anaconda3/bin/activate' '/home/mono/anaconda3/envs/twitter';'/snap/pycharm-community/132/bin/printenv.py' '/tmp/intellij-shell-env.tmp' 
+2019-06-18 19:08:46,889 [  36411]   INFO - .intellij.util.EnvironmentUtil - loading shell env: /bin/bash -c . '/home/mono/anaconda3/bin/activate' '/home/mono/anaconda3/envs/twitter';'/snap/pycharm-community/132/bin/printenv.py' '/tmp/intellij-shell-env.1.tmp' 
+2019-06-18 19:08:47,208 [  36730]   INFO - .intellij.util.EnvironmentUtil - shell environment loaded (77 vars) 
+2019-06-18 19:08:47,245 [  36767]   INFO - ns.python.sdk.PythonSdkUpdater - Updating sys.path took 355 ms 
+2019-06-18 19:08:47,246 [  36768]   INFO - ns.python.sdk.PythonSdkUpdater - Bogus sys.path entry /home/mono/anaconda3/envs/twitter/lib/python36.zip 
+2019-06-18 19:08:47,247 [  36769]   INFO - ns.python.sdk.PythonSdkUpdater - Binary skeletons directory for SDK Python 3.6 (twitter) (/home/mono/anaconda3/envs/twitter/bin/python3.6)): /home/mono/.PyCharmCE2019.1/system/python_stubs/-1753425276 
+2019-06-18 19:08:47,247 [  36769]   INFO - ns.python.sdk.PythonSdkUpdater - User skeletons directory for SDK Python 3.6 (twitter) (/home/mono/anaconda3/envs/twitter/bin/python3.6)): /snap/pycharm-community/132/helpers/python-skeletons 
+2019-06-18 19:08:47,253 [  36775]   INFO - .intellij.util.EnvironmentUtil - shell environment loaded (77 vars) 
+2019-06-18 19:08:47,258 [  36780]   INFO - ns.python.sdk.PythonSdkUpdater - Performing background update of skeletons for SDK Python 3.6 (twitter) (/home/mono/anaconda3/envs/twitter/bin/python3.6) 
+2019-06-18 19:08:47,258 [  36780]   INFO - .skeletons.PySkeletonRefresher - Refreshing skeletons for /home/mono/anaconda3/envs/twitter/bin/python3.6 
+2019-06-18 19:08:47,628 [  37150]   INFO - .skeletons.PySkeletonGenerator - Retrieving binary module list took 345 ms 
+2019-06-18 19:08:47,631 [  37153]   INFO - tPregeneratedSkeletonsProvider - Home path is /snap/pycharm-community/132 
+2019-06-18 19:08:47,651 [  37173]   INFO - .skeletons.PySkeletonRefresher - Rebuilding skeletons for binaries took 18 ms 
+2019-06-18 19:08:47,671 [  37193]   INFO - ns.python.sdk.PythonSdkUpdater - Performing background scan of packages for SDK Python 3.6 (twitter) (/home/mono/anaconda3/envs/twitter/bin/python3.6) 
+2019-06-18 19:08:47,674 [  37196]   INFO - packaging.PyPackageManagerImpl - Running packaging tool: /home/mono/anaconda3/envs/twitter/bin/python3.6 /snap/pycharm-community/132/helpers/packaging_tool.py list 
+2019-06-18 19:23:52,189 [ 941711]   INFO - rationStore.ComponentStoreImpl - Saving Project '/home/mono/projects/python/twitter-bots' twitter-botsChangeListManager took 16 ms, XDebuggerManager took 60 ms 
+2019-06-18 19:23:52,320 [ 941842]   INFO - mponents.impl.stores.StoreUtil - saveProjectsAndApp took 668 ms 

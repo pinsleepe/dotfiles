@@ -1903,6 +1903,19 @@
         </option>
       </plugins>
     </entry>
+    <entry key="*.gohtml">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.go-template" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
     <entry key="*.gpp">
       <plugins>
         <option name="myPlugins">

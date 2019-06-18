@@ -1,4 +1,3 @@
-gsettings set org.gnome.settings-daemon.peripherals.mouse locate-pointer true
 gsettings set org.gnome.settings-daemon.peripherals.mouse locate-pointer false
 apt-get install dconf-editor -y
 sudo apt-get install dconf-editor -y
@@ -998,3 +997,4 @@ git commit -am 'composite PK for population table'
 git push
 git checkout master
 git pull
+pip install markovify

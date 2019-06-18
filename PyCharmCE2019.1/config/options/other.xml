@@ -15,9 +15,9 @@
     <property name="TrendingPluginsSearchHistory" value="keyboard&#10;string&#10;nyan&#10;sortBy:featured" />
     <property name="ask.about.ctrl.y.shortcut" value="true" />
     <property name="file.chooser.recent.files" value="$USER_HOME$/anaconda3/envs/twitter/bin/python3.6&#10;/home/mono/projects/python/twitter-bots" />
-    <property name="file.gist.reindex.count" value="3336" />
+    <property name="file.gist.reindex.count" value="3732" />
     <property name="fileTypeChangedCounter" value="1" />
-    <property name="lastTip" value="3" />
+    <property name="lastTip" value="5" />
     <property name="tasks.pass.word.conversion.enforced" value="true" />
   </component>
   <component name="PyTestFrameworkService">
