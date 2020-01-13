@@ -137,7 +137,14 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+# tunnels setup
 alias tunnel='sshuttle --daemon --dns --pidfile=/tmp/sshuttle.pid --remote=analytics1 0/0'
 alias tunnelx='[[ -f /tmp/sshuttle.pid ]] && kill $(cat /tmp/sshuttle.pid) && echo "Disconnected."'
+
+alias tunnelge='sudo openvpn --client --config /home/mono/projects/data/prd-vpn-client1.gehosting.org.ovpn --daemon'
+alias tunnelgex='sudo killall openvpn && echo "Disconnected."'
+
+alias ec2="$HOME/projects/ec2.sh"
+alias aws="$HOME/bin/aws"
 
 export NLTK_DATA=~/projects/data/nltk_data
